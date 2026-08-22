@@ -1,12 +1,12 @@
 # Microsite checklist
 
-Status: `PENDING_PUBLIC_DEPLOYMENT`
+Status: `LIVE`
 
-No URL is fabricated in this release candidate. When deployment is separately
-authorized, publish the content in [microsite/index.md](../microsite/index.md)
-and verify that the landing page links to the executive summary, narrative,
-local result, provider qualification summary, claim limitations, and
-reproduction command.
+Canonical URL: `https://parallax.midex.app`
+
+The published content is in [microsite/index.md](../microsite/index.md). The
+landing page links to the executive summary, narrative, local result, provider
+qualification summary, claim limitations, and reproduction command.
 
 Required visible sections:
 

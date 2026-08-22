@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256(sorted UTF-8 relative POSIX path + NUL + file SHA-256 + LF); release manifest and seal excluded",
-  "created_utc": "2026-08-22T17:09:12.972053Z",
+  "created_utc": "2026-08-22T17:15:06.458816Z",
   "file_count": 39,
   "files": [
     {
@@ -113,7 +113,7 @@
     },
     {
       "path": "microsite/index.md",
-      "sha256": "a358486bfdc4e40e3df9c9a7c1af30abd93404c0df3d3d7e1407bf25d568549f"
+      "sha256": "8372a8dcb36ed160f82855af575295b1aa1fd2ad313cf61a2aad7cbc1f0d925f"
     },
     {
       "path": "predecessor/contest-package-manifest.json",
@@ -149,18 +149,18 @@
     },
     {
       "path": "submission/form-draft.md",
-      "sha256": "cbe497d40ff458ef2b56646e14b56cb98e978321070951f227fb511439e28125"
+      "sha256": "c39739f64d5d6c028a6e72adf98ec35797242ba81c0fe26711c3465e55a54cc6"
     },
     {
       "path": "submission/github-checklist.md",
-      "sha256": "d1856d8869ee271ebd2b567b01ae8f05ff85531f9fe5767972f48a6a7ee3f8cc"
+      "sha256": "661ea1b2d9755a25b2886ae58e3eeba61755e35517fa6ff4a41c38c66bb7cd15"
     },
     {
       "path": "submission/microsite-checklist.md",
-      "sha256": "661d19dc52787dc38b2250de975aab6d5d5cb5edc984c0d95f98f7388bc489b0"
+      "sha256": "3d3068fe5d70478af6e04ae1bee47647f98c24facef5aff1b7320c3ce858a671"
     }
   ],
-  "packet_sha256": "b705ead14bdfa8fdd25548df844860388899a23d4357d6e49fb6bd2104ca4606",
+  "packet_sha256": "097b7373b0cc89e885d09c88da668e903881dab580c7f8b03664e98c1cf567d0",
   "predecessor_manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
   "predecessor_packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
   "predecessor_seal_file_sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f",

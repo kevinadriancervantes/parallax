@@ -59,4 +59,4 @@ Review the [executive summary](../executive-summary.md), [evidence](../evidence)
 
 ## Deployment status
 
-`PENDING_PUBLIC_DEPLOYMENT`
+`https://parallax.midex.app`

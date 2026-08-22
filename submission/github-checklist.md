@@ -1,6 +1,6 @@
 # GitHub checklist
 
-Status: `PENDING_PUBLIC_DEPLOYMENT`
+Status: `PUBLISHED_PUBLIC_RELEASE`
 
 The root of this clean release tree is the GitHub-ready public export. Do not
 copy the development hardening directory or its excluded local-review files.

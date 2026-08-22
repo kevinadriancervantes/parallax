@@ -4,7 +4,7 @@ Evaluation Title: Parallax: Auditable Directional Evidence Response Evaluation
 
 Abstract: See [abstract-150.md](abstract-150.md).
 
-Microsite URL: `PENDING_PUBLIC_DEPLOYMENT`
+Microsite URL: `https://parallax.midex.app`
 
 GitHub repository link: `https://github.com/kevinadriancervantes/parallax`
 
