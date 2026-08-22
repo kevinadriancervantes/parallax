@@ -1,3 +1,3 @@
 * text=auto eol=lf
-predecessor/contest-package-manifest.json -text
-predecessor/contest-package-seal.json -text
+predecessor/contest-package-manifest.json -text -eol
+predecessor/contest-package-seal.json -text -eol

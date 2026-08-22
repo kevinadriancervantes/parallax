@@ -1,11 +1,11 @@
 {
   "algorithm": "sha256(sorted UTF-8 relative POSIX path + NUL + file SHA-256 + LF); release manifest and seal excluded",
-  "created_utc": "2026-08-22T17:08:09.092744Z",
+  "created_utc": "2026-08-22T17:09:12.972053Z",
   "file_count": 39,
   "files": [
     {
       "path": ".gitattributes",
-      "sha256": "c5c3d2e767b37486069e63dc838269dd22dab2d6d42c4c84edb6ea9bc9f4b9ba"
+      "sha256": "5b6798a5153014345d84fbb96ae48d7279e6cc95a288a85d48ba898a3fb1af34"
     },
     {
       "path": "contest-narrative.md",
@@ -160,7 +160,7 @@
       "sha256": "661d19dc52787dc38b2250de975aab6d5d5cb5edc984c0d95f98f7388bc489b0"
     }
   ],
-  "packet_sha256": "667604efe707aa2030e90c19e00002a080a3ee20b86f89ddc1df18e2f6c62f53",
+  "packet_sha256": "b705ead14bdfa8fdd25548df844860388899a23d4357d6e49fb6bd2104ca4606",
   "predecessor_manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
   "predecessor_packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
   "predecessor_seal_file_sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f",
