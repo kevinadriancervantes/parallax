@@ -1,0 +1,25 @@
+{
+  "schema_version": "parallax.public-release.privacy-receipt.v1",
+  "release_id": "PARALLAX_PUBLIC_RELEASE_CANDIDATE_V1",
+  "scan_mode": "physical-tree deterministic pattern and allowlist audit",
+  "physical_tree_files": 40,
+  "allowlist_classes": ["PUBLIC", "PUBLIC_SANITIZED", "LOCAL_PRIVATE_EXCLUDED", "SECRET_NEVER_EXPORT"],
+  "scanned_categories": [
+    "credentials",
+    "authorization headers",
+    "personal absolute paths",
+    "personal username values",
+    "MAC addresses",
+    "serial identifiers",
+    "process identifiers",
+    "non-loopback IP addresses",
+    "raw provider bodies",
+    "raw local scientific responses",
+    "raw local editorial responses",
+    "unrelated machine inventory"
+  ],
+  "violations": [],
+  "status": "PASS",
+  "development_evidence_preserved": true,
+  "final_public_export_contains_raw_local_review": false
+}

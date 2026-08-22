@@ -1,0 +1,49 @@
+{
+  "attempted": 4800,
+  "campaign_id": "PARALLAX_LOCAL_SURROGATE_V2_PRIMARY",
+  "capacities": [
+    "7B",
+    "14B"
+  ],
+  "capacity_comparison": "UNPAIRED_DESCRIPTIVE",
+  "claim_firewall": {
+    "confirmatory_result": "NONE",
+    "local_surrogate_result": "DESCRIPTIVE_ONLY",
+    "provider_result": "NONE"
+  },
+  "dose_behavior": "not uniformly monotone",
+  "duplicate_attempts": 0,
+  "invalid_enum_by_capacity": {
+    "14B": 256,
+    "7B": 0
+  },
+  "model_family": "Qwen2.5",
+  "nuisance_comparisons": 60,
+  "nuisance_nonzero_comparisons": 17,
+  "qualitative_profile": {
+    "14B": "predominantly UNRESOLVED",
+    "7B": "strongly LEANS_H-dominated"
+  },
+  "regimes": [
+    "D",
+    "S"
+  ],
+  "replacement_attempts": 0,
+  "runtime_errors": 0,
+  "scheduled": 4800,
+  "schema_adherence_rate": 0.9466666666666667,
+  "schema_invalid": 256,
+  "schema_version": "parallax.contest.local-surrogate-summary.v1",
+  "source_result_packet_sha256": "032f5605bb27dea8444dc960ffd7545bf9b40821a03c66da550fea3cf84745aa",
+  "status": "ACCEPTED_DESCRIPTIVE_ONLY",
+  "surface_cue": {
+    "count": 2519,
+    "denominator": 4800,
+    "forbidden_inference": "MODEL_INTERNALLY_USED_SURFACE_CUES",
+    "interpretation": "BEHAVIOR_IS_CONCORDANT_WITH_THE_PREDECLARED_SHALLOW_CUE_HEURISTIC",
+    "rate": 0.5247916666666667
+  },
+  "terminal": 4800,
+  "truncations": 0,
+  "valid_ordinal": 4544
+}

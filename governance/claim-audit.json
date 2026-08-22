@@ -1,0 +1,17 @@
+{
+  "schema_version": "parallax.contest.hardening-claim-audit.v1",
+  "scope": ["README.md", "executive-summary.md", "contest-narrative.md", "reproducibility/README.md"],
+  "classification_counts": {
+    "SUPPORTED": 10,
+    "QUALIFIED": 2,
+    "DESIGN_ONLY": 0,
+    "PROHIBITED": 0,
+    "EDITORIAL_NONSCIENTIFIC": 0
+  },
+  "claim_matrix_rows": 14,
+  "evidence_pointer_requirement": "all supported/qualified material claims map to the unchanged baseline claim matrix or successor hardening evidence",
+  "prohibited_patterns_found": [],
+  "design_execution_ambiguities_found": [],
+  "qualification_scope_leaks_found": [],
+  "status": "PASS"
+}

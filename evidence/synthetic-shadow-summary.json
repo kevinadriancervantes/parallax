@@ -1,0 +1,37 @@
+{
+  "all_worlds_match": true,
+  "evaluations_per_world": 556200,
+  "interpretation_boundary": "software and analysis evidence only; not real-model behavior",
+  "known_ground_truth": true,
+  "packet_sha256": "729a827757a7023a42b2425c64c9f3d5b0cc650b0746278993847b0020e750a0",
+  "real_model_calls": 0,
+  "scheduled_evaluations": 6674400,
+  "schema_version": "parallax.contest.synthetic-shadow-summary.v1",
+  "scientific_provider_calls": 0,
+  "source_manifest_sha256": "ada50d099777e53093c13c0e1fef649b97d181308dd30b02179e669cf2049815",
+  "status": "INDEPENDENTLY_ACCEPTED",
+  "validated_dimensions": [
+    "analysis correctness",
+    "boundary behavior",
+    "partial identification",
+    "provider asymmetry",
+    "retry metamorphism",
+    "Route B nonstationarity",
+    "surface-cue limitation"
+  ],
+  "world_count": 12,
+  "world_labels": [
+    "WORLD-01-CLEAN-PASS",
+    "WORLD-02-ADJACENT-REVERSAL",
+    "WORLD-03-ENDPOINT-INSUFFICIENT",
+    "WORLD-04-NUISANCE-INSTABILITY",
+    "WORLD-05-REFUSAL-AVAILABILITY-FAIL",
+    "WORLD-06-CONSERVATIVE-MISSINGNESS",
+    "WORLD-07-PROVIDER-ASYMMETRY",
+    "WORLD-08-SURFACE-CUE-FOLLOWER",
+    "WORLD-09-DECISION-BOUNDARY",
+    "WORLD-10A-RETRY-NONE",
+    "WORLD-10B-RETRY-SUCCESS-TELEMETRY",
+    "WORLD-11-ROUTE-B-NONSTATIONARY"
+  ]
+}

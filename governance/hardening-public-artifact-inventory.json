@@ -1,0 +1,36 @@
+{
+  "schema_version": "parallax.contest.hardening-public-artifact-inventory.v1",
+  "public_payload": "all successor files included in contest-package-hardening-manifest.json except explicitly excluded local-review/raw working outputs",
+  "public": [
+    "README.md",
+    "executive-summary.md",
+    "contest-narrative.md",
+    "hardening-report.md",
+    "hardening-accounting-reproduction.json",
+    "hardening-substrate-inventory.json",
+    "governance/failure-semantics.md",
+    "governance/semantic-diff.json",
+    "governance/hardening-public-artifact-inventory.json",
+    "governance/claim-audit.json",
+    "governance/contradiction-audit.json",
+    "governance/sources.md",
+    "local-review/local-review-normalized.json",
+    "reproducibility/verify_hardened_package.py"
+  ],
+  "public_sanitized": [
+    "baseline hashes and repository-relative provenance",
+    "local editorial model identities and counts without raw prompts/responses",
+    "derived provider cost inputs and formulas without provider payloads"
+  ],
+  "excluded_local_working_evidence": [
+    "local-review/raw/*.json",
+    "local-review/local-review-run.json terminal-control receipt"
+  ],
+  "local_private_not_copied": [
+    "raw provider qualification envelopes",
+    "raw local-model generation rows",
+    "machine/account metadata and credentials"
+  ],
+  "violations": [],
+  "status": "PASS"
+}

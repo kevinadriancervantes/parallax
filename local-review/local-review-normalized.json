@@ -1,0 +1,19 @@
+{
+  "schema_version": "parallax.contest.local-editorial-review.normalized.v1",
+  "review_type": "ADVERSARIAL_EDITORIAL_ONLY",
+  "scientific_evidence": false,
+  "runtime": "Ollama 0.31.1",
+  "models": ["qwen2.5:7b", "qwen2.5:14b-instruct-q4_K_M"],
+  "local_model_calls": 2,
+  "external_model_calls": 0,
+  "external_provider_calls": 0,
+  "verdicts": {"qwen2.5:7b": "PASS", "qwen2.5:14b-instruct-q4_K_M": "PASS"},
+  "findings": [
+    {"source_model": "qwen2.5:7b", "severity": "LOW", "role": "SCIENTIFIC", "issue": "Temporal qualification wording could be made more explicit in static protocol language.", "disposition": "REPAIRED_BY_FAILURE_SEMANTICS_AND_TEMPORAL_BOUNDARY_SECTION"},
+    {"source_model": "qwen2.5:7b", "severity": "LOW", "role": "SCIENTIFIC", "issue": "Statistical non-regression and funding-dependent execution should remain visibly distinct.", "disposition": "REPAIRED_BY_CONFIRMATORY_DESIGN_SEPARATION_AND_STATUS_FIELDS"},
+    {"source_model": "qwen2.5:14b-instruct-q4_K_M", "severity": "LOW", "role": "REPRODUCIBILITY", "issue": "The descriptive local-model boundary should be repeated in reproduction instructions.", "disposition": "REPAIRED_BY_REPRODUCTION_BOUNDARY_TEXT"}
+  ],
+  "prohibited_claims_seen": [],
+  "raw_cli_output": "retained outside public payload because terminal-control redraws made it non-canonical",
+  "status": "PASS_WITH_LOW_EDITORIAL_REPAIRS"
+}

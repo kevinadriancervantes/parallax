@@ -1,0 +1,56 @@
+{
+  "M": 210,
+  "N_execution": 9270,
+  "account_capacity": "UNVERIFIED",
+  "alpha_global": 0.05,
+  "alternate_paths": {
+    "anthropic_message_batches": "currently approximately half token price; not an authorized substitute for canonical Messages without separate path review and qualification",
+    "authorization": "NOT_AUTHORIZED_SUBSTITUTES",
+    "google_batch_or_flex": "not an authorized substitute without separate path review and qualification"
+  },
+  "calls_per_provider": 278100,
+  "cells_per_provider": 30,
+  "confirmatory_execution": "NOT_PERFORMED",
+  "full_joint_power_claim": "NONE",
+  "funding": "NOT_SECURED",
+  "local_surrogate_is_replacement": false,
+  "planning_cost_scenarios": [
+    {
+      "anthropic_assumed_total_billed_output_tokens_per_call_including_thinking_where_applicable": 256,
+      "anthropic_usd": 9121.68,
+      "combined_known_usd": 9805.806,
+      "google_thought_tokens": "SEPARATELY_MEASURED_ADDITIONAL_UNKNOWN_COST",
+      "google_visible_floor_usd": 684.126,
+      "google_visible_response_output_tokens_per_call": 256,
+      "input_tokens_per_call": 2000,
+      "label": "LOW_TOKEN_PLANNING_CASE_NOT_EXPECTATION"
+    },
+    {
+      "anthropic_assumed_total_billed_output_tokens_per_call_including_thinking_where_applicable": 256,
+      "anthropic_usd": 14683.68,
+      "combined_known_usd": 15784.956,
+      "google_thought_tokens": "SEPARATELY_MEASURED_ADDITIONAL_UNKNOWN_COST",
+      "google_visible_floor_usd": 1101.276,
+      "google_visible_response_output_tokens_per_call": 256,
+      "input_tokens_per_call": 4000,
+      "label": "INTERMEDIATE_PLANNING_CASE_NOT_EXPECTATION"
+    },
+    {
+      "anthropic_assumed_total_billed_output_tokens_per_call_including_thinking_where_applicable": 16000,
+      "anthropic_usd": 233604.0,
+      "combined_known_usd": 237642.012,
+      "google_thought_tokens": "SEPARATELY_MEASURED_ADDITIONAL_UNKNOWN_COST",
+      "google_visible_floor_usd": 4038.012,
+      "google_visible_response_output_tokens_per_call": 3072,
+      "input_tokens_per_call": 4000,
+      "label": "CONFIGURED_HIGH_TOKEN_STRESS_CASE_NOT_EXPECTATION"
+    }
+  ],
+  "protocol_manifest_sha256": "8cc96e3a52a5ae653b6b6c4507a75a09ed91fcd58a7cb8fc98606292b9b44c86",
+  "protocol_packet_sha256": "3845082159fe2775b2ae69fb0216dc6a4b516077d4fe1d1daf84dfd89911e44e",
+  "provider_separation": true,
+  "providers": 2,
+  "schema_version": "parallax.contest.confirmatory-reference-summary.v1",
+  "status": "REFERENCE_PROTOCOL_EXISTS_EXECUTION_NOT_PERFORMED",
+  "total_scheduled_calls": 556200
+}

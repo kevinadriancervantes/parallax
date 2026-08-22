@@ -1,0 +1,15 @@
+{
+  "baseline": "CONTEST_PACKAGE_BASELINE_V1",
+  "confirmatory_calls": 0,
+  "file_count": 19,
+  "full_confirmatory_execution": "NOT_PERFORMED",
+  "manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
+  "new_model_calls": 0,
+  "new_provider_calls": 0,
+  "next_operation": "PRE_SUBMISSION_LOCAL_MODEL_HARDENING",
+  "packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
+  "schema_version": "parallax.contest-package.seal.v1",
+  "scientific_provider_result": "NONE",
+  "sealed_utc": "2026-08-22T11:48:40.725651Z",
+  "status": "SEALED_READY_FOR_HARDENING"
+}

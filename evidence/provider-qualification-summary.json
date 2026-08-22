@@ -1,0 +1,26 @@
+{
+  "anthropic_path": "QUALIFIED_NON_SCIENTIFIC_MESSAGES_PATH",
+  "calls": 6,
+  "confirmatory_calls": 0,
+  "cost_usd": 0.017233750000000003,
+  "derived_accounting_metadata_correction": {
+    "corrected_total_usd": 0.017233750000000003,
+    "correction_sha256": "fc2d99b89db1ca0c8e605c2618ec65dbfef09fa4a6a64ca3c36eb8e7c0d1d22c",
+    "google_billed_output_semantics": "response output tokens + separately reported thought tokens",
+    "google_output_rate_including_thinking_usd_per_million": 3.75,
+    "record": "DERIVED_ACCOUNTING_METADATA_CORRECTION"
+  },
+  "google_error_path": "QUALIFIED_CURRENT_ERROR_OBJECT",
+  "google_path": "QUALIFIED_NON_SCIENTIFIC_INTERACTIONS_PATH",
+  "logical_cases": 6,
+  "manifest_sha256": "53f472ea1b9c02e1c1ee7dec629b374857bc59bd0c5a0e8ed975195417a279fd",
+  "packet_sha256": "c519ef45b6ad1d98369d0330eeb99a3a5c38f77a86cf474e9ce27b9ab636c8f8",
+  "qualification_disposition": "PARALLAX_REAL_PROVIDER_PATH_QUALIFICATION_PASSED",
+  "raw_response_bodies_in_public_summary": false,
+  "retries": 0,
+  "schema_version": "parallax.contest.provider-qualification-summary.v1",
+  "scientific_prompts": 0,
+  "scientific_provider_result": "NONE",
+  "seal_file_sha256": "d931a05ffe2a58b06577f483930dc63cce5ffd40bd6fba016a893fa6da982f65",
+  "status": "ACCEPTED_NON_SCIENTIFIC_QUALIFICATION"
+}

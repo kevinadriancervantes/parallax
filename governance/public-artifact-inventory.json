@@ -1,0 +1,44 @@
+{
+  "schema_version": "parallax.contest.public-artifact-inventory.v1",
+  "classification_rule": "Only compact summaries, hashes, contracts, prose, and no-credential reproduction code are in the public baseline.",
+  "public": [
+    "README.md",
+    "executive-summary.md",
+    "contest-narrative.md",
+    "figures/figure-plan.md",
+    "reproducibility/README.md",
+    "reproducibility/verify_parallax.py",
+    "build_contest_evidence.py",
+    "seal_contest_package.py",
+    "governance/claim-evidence-matrix.csv",
+    "governance/claim-firewall-review.md",
+    "governance/sources.md",
+    "governance/accepted-lineage.json",
+    "governance/public-artifact-inventory.json",
+    "governance/privacy-audit.json",
+    "evidence/confirmatory-reference-summary.json",
+    "evidence/synthetic-shadow-summary.json",
+    "evidence/local-surrogate-summary.json",
+    "evidence/provider-qualification-summary.json",
+    "evidence/provider-cost-correction.json"
+    ,"contest-package-manifest.json"
+    ,"contest-package-seal.json"
+  ],
+  "public_sanitized": [
+    "Repository-relative source identities in governance/accepted-lineage.json",
+    "Derived local counts and provider qualification hashes",
+    "Planning cost scenarios without account identifiers or raw provider bodies"
+  ],
+  "local_private": [
+    "research/reviews/experiment-3/v3-local-model-surrogate-primary-result-v2/raw response and row evidence",
+    "research/reviews/experiment-3/v3-real-provider-path-qualification-v1/raw-provider-evidence",
+    "machine/runtime custody and account-specific telemetry outside this package"
+  ],
+  "secret_never_package": [
+    "credential values and authorization headers",
+    "private provider/account identifiers",
+    "personal absolute paths, usernames, machine identifiers, process identifiers, and unrelated inventory",
+    "raw provider bodies unless separately sanitized and needed for a public claim"
+  ],
+  "raw_provider_boundary": "hashes and sanitized qualification summaries only; raw envelopes remain local-private"
+}

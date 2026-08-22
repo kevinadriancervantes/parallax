@@ -1,0 +1,17 @@
+{
+  "schema_version": "parallax.contest.privacy-audit.v1",
+  "scope": "contest-package payload files only",
+  "scan_mode": "deterministic text/JSON path and secret-pattern audit",
+  "scanned_files": 19,
+  "excluded_seal_metadata_files": 2,
+  "absolute_private_paths": 0,
+  "credential_values": 0,
+  "authorization_headers": 0,
+  "personal_identifiers": 0,
+  "machine_identifiers": 0,
+  "raw_provider_bodies": 0,
+  "raw_local_model_rows": 0,
+  "violations": [],
+  "status": "PASS",
+  "note": "This public boundary intentionally contains compact derived summaries and hashes, not raw provider or local execution evidence."
+}

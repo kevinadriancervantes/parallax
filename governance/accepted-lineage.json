@@ -1,0 +1,67 @@
+{
+  "schema_version": "parallax.contest.accepted-lineage.v1",
+  "identity_rule": "Values are recomputed from repository bytes where applicable; source paths are repository-relative.",
+  "layers": [
+    {
+      "name": "V3 reference protocol",
+      "source_path": "research/reviews/experiment-3/contest-facing-reference-confirmatory-protocol-v3/successor-manifest.json",
+      "manifest_sha256": "8cc96e3a52a5ae653b6b6c4507a75a09ed91fcd58a7cb8fc98606292b9b44c86",
+      "packet_sha256": "3845082159fe2775b2ae69fb0216dc6a4b516077d4fe1d1daf84dfd89911e44e",
+      "status": "ACCEPTED_WITH_LIVE_QUALIFICATION_DEPENDENCIES"
+    },
+    {
+      "name": "Full-scale known-ground-truth synthetic shadow",
+      "source_path": "research/reviews/experiment-3/v3-full-scale-shadow-study-v1/shadow-study-manifest.json",
+      "manifest_sha256": "ada50d099777e53093c13c0e1fef649b97d181308dd30b02179e669cf2049815",
+      "packet_sha256": "729a827757a7023a42b2425c64c9f3d5b0cc650b0746278993847b0020e750a0",
+      "status": "INDEPENDENTLY_ACCEPTED"
+    },
+    {
+      "name": "Local surrogate design V2",
+      "source_path": "research/reviews/experiment-3/v3-local-model-surrogate-campaign-design-v2/design-manifest.json",
+      "manifest_sha256": "f330d9d6bee87bbbaca6771e3b11ecb1608cb7b10b3f06a841b19e8238cb3369",
+      "packet_sha256": "7c1b73b87ea29f39fd4f9479991852582d3bf60ca224aaf0f0e49ce6a291f7de",
+      "status": "ACCEPTED_WITH_EXECUTION_QUALIFICATIONS"
+    },
+    {
+      "name": "Local throughput qualification",
+      "source_path": "research/reviews/experiment-3/v3-local-model-surrogate-throughput-qualification-v1/qualification-manifest.json",
+      "manifest_sha256": "e6533a9b090567a885bc49420c8b891e9c63465d353de67a471dd9137bcc97ed",
+      "packet_sha256": "e033a2b516489772e1e9c755167e9a6cf7a799ecebb9f3975d1737d549be21b4",
+      "status": "PASSED"
+    },
+    {
+      "name": "Corrected local primary Phase A",
+      "source_path": "research/reviews/experiment-3/v3-local-model-surrogate-primary-phase-a-v2/phase-a-manifest.json",
+      "manifest_sha256": "614e95787bd9b70ec6fbc1301684b65953ab119ccbe21032ca58c6bc8627e980",
+      "packet_sha256": "58e2c3da65b57b7042d68da566149979f4292c9ac4b844b652e5d3380fc41f90",
+      "status": "ACCEPTED_CORRECTED_PHASE_A_AUTHORITY"
+    },
+    {
+      "name": "Local primary result V2",
+      "source_path": "research/reviews/experiment-3/v3-local-model-surrogate-primary-result-v2/result-seal.json",
+      "manifest_sha256": "4e84d673aa78c13ebca36974b9a47f83d69be65fe0c10040085e53bda21438f4",
+      "packet_sha256": "032f5605bb27dea8444dc960ffd7545bf9b40821a03c66da550fea3cf84745aa",
+      "seal_file_sha256": "4d5b19198eacb9daed9586e4d4463134721679b63b00846c2d7a38d4e6015343",
+      "status": "ACCEPTED_DESCRIPTIVE_ONLY"
+    },
+    {
+      "name": "Real-provider path qualification",
+      "source_path": "research/reviews/experiment-3/v3-real-provider-path-qualification-v1/qualification-seal.json",
+      "manifest_sha256": "53f472ea1b9c02e1c1ee7dec629b374857bc59bd0c5a0e8ed975195417a279fd",
+      "packet_sha256": "c519ef45b6ad1d98369d0330eeb99a3a5c38f77a86cf474e9ce27b9ab636c8f8",
+      "seal_file_sha256": "d931a05ffe2a58b06577f483930dc63cce5ffd40bd6fba016a893fa6da982f65",
+      "status": "PASSED_NON_SCIENTIFIC_QUALIFICATION"
+    }
+  ],
+  "preserved_predecessor": {
+    "local_primary_result_v1_packet_sha256": "de3f578962e3a368b0745e4a8635d16bdfc572bad620b09f4d51899b156d19cc",
+    "local_primary_result_v1_manifest_sha256": "360f1aa25659e8c1ba4ca76a15d5169e223bcc8312c9f3c5262af351ede3df6d"
+  },
+  "global_authority": {
+    "scientific_provider_result": "NONE",
+    "full_confirmatory_execution": "NOT_PERFORMED",
+    "funding": "NOT_SECURED",
+    "experiment_result_assignment": "NONE"
+  }
+}

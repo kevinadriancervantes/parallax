@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Parallax: an auditable directional evidence response evaluation instrument.">
+  <title>Parallax — Directional Evidence Response Evaluation</title>
+  <style>
+    :root { color-scheme: light; --ink: #17202a; --muted: #52606d; --line: #d9e2ec; --accent: #1769aa; --wash: #f5f8fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: white; font: 16px/1.6 system-ui, -apple-system, Segoe UI, sans-serif; }
+    main { max-width: 980px; margin: 0 auto; padding: 28px 20px 64px; }
+    nav { display: flex; flex-wrap: wrap; gap: 14px 20px; padding: 12px 0 28px; border-bottom: 1px solid var(--line); }
+    nav a, a { color: var(--accent); }
+    h1 { font-size: clamp(2.2rem, 6vw, 4.4rem); line-height: 1.05; letter-spacing: -.04em; margin: 48px 0 18px; max-width: 760px; }
+    h2 { margin-top: 42px; line-height: 1.2; }
+    .lede { font-size: 1.25rem; color: var(--muted); max-width: 760px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin: 24px 0; }
+    .card { background: var(--wash); border: 1px solid var(--line); border-radius: 10px; padding: 16px; }
+    .status { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .9rem; white-space: pre-wrap; background: #101820; color: #e6edf3; padding: 18px; border-radius: 8px; overflow-x: auto; }
+    footer { margin-top: 52px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: .92rem; }
+  </style>
+</head>
+<body>
+<main>
+  <nav aria-label="Primary navigation">
+    <a href="#question">What Parallax asks</a>
+    <a href="#evidence">Evidence</a>
+    <a href="#limits">Claim limits</a>
+    <a href="#reproduce">Reproduce</a>
+    <a href="executive-summary.md">Executive summary</a>
+    <a href="contest-narrative.md">Full protocol narrative</a>
+  </nav>
+
+  <h1>Can a model follow ordered evidence?</h1>
+  <p class="lede">Parallax is a governed evaluation instrument for testing whether observable response states move coherently as evidence becomes stronger or weaker, remain stable under nuisance rewrites, and fail conservatively when a response is refused or unavailable.</p>
+
+  <section id="question">
+    <h2>Why this matters</h2>
+    <p>Strategic-policy AI evaluations need to distinguish evidence-sensitive behavior from a fluent but unstable answer. Parallax freezes the evidence doses, response semantics, renderer, request construction, retry rules, custody, and analysis before confirmatory execution.</p>
+  </section>
+
+  <section id="evidence">
+    <h2>What has been validated</h2>
+    <div class="grid">
+      <div class="card"><strong>Synthetic shadow</strong><br>12 known-ground-truth worlds and 6,674,400 scheduled coordinate evaluations matched independent oracle decisions.</div>
+      <div class="card"><strong>Local surrogate</strong><br>4,800 Qwen2.5 generations exposed schema-invalid responses, non-monotone dose behavior, nuisance instability, and a shallow-cue diagnostic.</div>
+      <div class="card"><strong>Provider paths</strong><br>Six Anthropic/Google calls qualified transport paths only. No scientific Parallax prompt was sent.</div>
+    </div>
+    <p>Read the <a href="evidence/local-surrogate-summary.json">local result</a> and <a href="evidence/provider-qualification-summary.json">provider qualification summary</a>.</p>
+  </section>
+
+  <section id="limits">
+    <h2>What Parallax does not claim</h2>
+    <p>The local result is descriptive. Provider qualification is non-scientific. There is no scientific provider result, no confirmatory result, no full-joint power claim, and no inference about hidden belief revision, truth tracking, or internal model mechanism.</p>
+    <p>Refusal is recorded separately from the substantive ordinal response. Technical and transport unavailability remain visible and are not silently converted into an answer.</p>
+    <p>Review the <a href="governance/claim-evidence-matrix.csv">claim/evidence matrix</a> and <a href="governance/claim-firewall-review.md">claim firewall</a>.</p>
+  </section>
+
+  <section>
+    <h2>Confirmatory plan</h2>
+    <p>The reference plan has two providers, 30 cells per provider, <code>N=9270</code> per cell, 278,100 calls per provider, 556,200 scheduled calls, and <code>M=210</code>. Execution is not performed and funding is not secured.</p>
+    <div class="status">CONFIRMATORY_EXECUTION = NOT_PERFORMED
+SCIENTIFIC_PROVIDER_RESULT = NONE
+PUBLIC_RELEASE_CANDIDATE = SEALED</div>
+  </section>
+
+  <section id="reproduce">
+    <h2>Reproduce and inspect</h2>
+    <p>From the root of this public release:</p>
+    <div class="status">python reproducibility/verify_public_release.py</div>
+    <p>The verifier requires no GPU, Ollama, provider credentials, network access, or funding. See the <a href="reproducibility/README.md">reproduction instructions</a>.</p>
+  </section>
+
+  <footer>
+    <p>GitHub repository: <a id="github-url" href="https://github.com/kevinadriancervantes/parallax">github.com/kevinadriancervantes/parallax</a></p>
+    <p>Parallax public release candidate V1. Publication does not constitute contest submission.</p>
+  </footer>
+</main>
+</body>
+</html>

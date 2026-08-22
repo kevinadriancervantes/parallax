@@ -1,0 +1,18 @@
+{
+  "schema_version": "parallax.contest.hardening-accounting-reproduction.v1",
+  "record_type": "DERIVED_ACCOUNTING_METADATA_CORRECTION",
+  "source": "research/reviews/experiment-3/v3-real-provider-path-qualification-v1/qualification-cost-correction.json",
+  "provider_calls": 0,
+  "rows": [
+    {"case_id": "A1", "provider": "anthropic", "input_tokens": 362, "output_tokens": 64, "thought_tokens": 0, "input_rate_usd_per_million": 10.0, "output_rate_usd_per_million": 50.0, "formula": "(362*10 + 64*50)/1000000", "cost_usd": 0.00682},
+    {"case_id": "A2", "provider": "anthropic", "input_tokens": 364, "output_tokens": 42, "thought_tokens": 0, "input_rate_usd_per_million": 10.0, "output_rate_usd_per_million": 50.0, "formula": "(364*10 + 42*50)/1000000", "cost_usd": 0.00574},
+    {"case_id": "A3", "provider": "anthropic", "input_tokens": 362, "output_tokens": 0, "thought_tokens": 0, "input_rate_usd_per_million": 10.0, "output_rate_usd_per_million": 50.0, "formula": "(362*10 + 0*50)/1000000", "cost_usd": 0.00362},
+    {"case_id": "G1", "provider": "google", "input_tokens": 68, "output_tokens": 20, "thought_tokens": 113, "input_rate_usd_per_million": 0.75, "output_rate_usd_per_million_including_thinking": 3.75, "formula": "(68*0.75 + (20+113)*3.75)/1000000", "cost_usd": 0.00054975},
+    {"case_id": "G2", "provider": "google", "input_tokens": 72, "output_tokens": 20, "thought_tokens": 100, "input_rate_usd_per_million": 0.75, "output_rate_usd_per_million_including_thinking": 3.75, "formula": "(72*0.75 + (20+100)*3.75)/1000000", "cost_usd": 0.000504},
+    {"case_id": "G3", "provider": "google", "input_tokens": null, "output_tokens": null, "thought_tokens": null, "cost_usd": null, "formula": "no usage on HTTP error probe"}
+  ],
+  "corrected_total_usd": 0.017233750000000003,
+  "rounding_convention": "retain exact binary-decimal JSON value shown by preserved correction; display rounded currency only in prose",
+  "outcome_changed": false,
+  "status": "REPRODUCED"
+}

@@ -1,0 +1,86 @@
+{
+  "algorithm": "sha256(sorted UTF-8 relative POSIX path + NUL + file SHA-256 + LF); manifest and seal excluded",
+  "baseline": "CONTEST_PACKAGE_BASELINE_V1",
+  "created_utc": "2026-08-22T11:48:40.725336Z",
+  "file_count": 19,
+  "files": [
+    {
+      "path": "build_contest_evidence.py",
+      "sha256": "41ce75d49de0d94e9cc13c9cec3b396d0ea3454eeb07bcef7c3ffc97b18207ea"
+    },
+    {
+      "path": "contest-narrative.md",
+      "sha256": "f4f56c97f2518a1702a4af85d8967499b32aeb3f9bcccd14c9bf04e1b433a4ee"
+    },
+    {
+      "path": "evidence/confirmatory-reference-summary.json",
+      "sha256": "d644eb9e55ab6563c5fc94fa33856721ad179d8b8d71fb06535e04cddafb2863"
+    },
+    {
+      "path": "evidence/local-surrogate-summary.json",
+      "sha256": "ec9c9d1ae2d030b597ddcb95661fd23db982dbd978455486d4c1379a171eb9a0"
+    },
+    {
+      "path": "evidence/provider-cost-correction.json",
+      "sha256": "b120eb015fa080bb199ac14781d4f6be5af39516773fa320bcb734404f00f9ea"
+    },
+    {
+      "path": "evidence/provider-qualification-summary.json",
+      "sha256": "61b7c582c45d78c9cd13cb5f8655d01e69ea94dccec7cf2dfa38fd4f931f90bb"
+    },
+    {
+      "path": "evidence/synthetic-shadow-summary.json",
+      "sha256": "28c4bcc78cafc6163ea1b42cf047a297e83b71533fbd50f760ce3563c9882c2e"
+    },
+    {
+      "path": "executive-summary.md",
+      "sha256": "d84f26e909f24f8e44e5c94832582b4cfce4f63b1a0745a45be8f2f9314ae39e"
+    },
+    {
+      "path": "figures/figure-plan.md",
+      "sha256": "109884dc0374e085062f5bbd1ca8244f6097c76957142f57a0c6d759d2c3c0f1"
+    },
+    {
+      "path": "governance/accepted-lineage.json",
+      "sha256": "55d16d5dee5a462de6ec437bf9f3a516126b392404c4b3282452f184d03a44ab"
+    },
+    {
+      "path": "governance/claim-evidence-matrix.csv",
+      "sha256": "d326597bc09ab2ed9e00f92aff225d310c8712370ded9b3ac2094e9bae309f02"
+    },
+    {
+      "path": "governance/claim-firewall-review.md",
+      "sha256": "06bf7e0b56bd6a38fa760015cc5f4e271de8f24b9cdfce0425ca0f6c52f3a4cd"
+    },
+    {
+      "path": "governance/privacy-audit.json",
+      "sha256": "52adc03b0394ed87633e36ec433f3d8a2f66be80341d4fe7159069fa459cd7e9"
+    },
+    {
+      "path": "governance/public-artifact-inventory.json",
+      "sha256": "5dacb3bfdd5a26916978d503bd469d6b9ea013559a3b9dcc63ae29a7b855419f"
+    },
+    {
+      "path": "governance/sources.md",
+      "sha256": "6e09d83a4ea2b4805960ff5a80af6623cb03c3a9cab7e2015f8cbf74d5de6f00"
+    },
+    {
+      "path": "README.md",
+      "sha256": "88559a320757080f716220747b71bf369b0575331c7661aa6d19ec9b637f3526"
+    },
+    {
+      "path": "reproducibility/README.md",
+      "sha256": "91c3923d9a93808da428af49250db5885356d277075c5dff419941464faad681"
+    },
+    {
+      "path": "reproducibility/verify_parallax.py",
+      "sha256": "05edb727c1c2a56a2d3bee8f809ab7e6f06a7c60da7d8047e44598108ccca517"
+    },
+    {
+      "path": "seal_contest_package.py",
+      "sha256": "9597bdc0d239c60141c4941be1a9e8eefa9a11036c0d50d7db27fc6cc0e60b86"
+    }
+  ],
+  "packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
+  "schema_version": "parallax.contest-package.manifest.v1"
+}

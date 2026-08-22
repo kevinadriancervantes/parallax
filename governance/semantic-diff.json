@@ -1,0 +1,18 @@
+{
+  "schema_version": "parallax.contest.hardening-semantic-diff.v1",
+  "predecessor_packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
+  "predecessor_manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
+  "predecessor_seal_file_sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f",
+  "changes": [
+    {"class": "CLARIFICATION", "path": "governance/failure-semantics.md", "summary": "separates API error, provider failure, malformed response, schema failure, refusal, and prohibited interpretation"},
+    {"class": "CLAIM_RESTRICTION", "path": "governance/failure-semantics.md", "summary": "makes dated provider qualification and fresh future qualification requirement explicit"},
+    {"class": "REPRODUCIBILITY_HARDENING", "path": "hardening-accounting-reproduction.json", "summary": "reconstructs corrected cost from preserved token counts and rates"},
+    {"class": "VERIFIER_HARDENING", "path": "reproducibility/verify_hardened_package.py", "summary": "adds successor identity, contradiction, temporal, and call-accounting checks"},
+    {"class": "PRIVACY_HARDENING", "path": "governance/hardening-public-artifact-inventory.json", "summary": "keeps local editorial raw output and provider/local evidence outside public payload"},
+    {"class": "EDITORIAL", "path": "hardening-report.md", "summary": "records low-severity adversarial editorial repairs"}
+  ],
+  "scientific_result_mutation": false,
+  "protocol_parameter_mutation": false,
+  "provider_qualification_outcome_mutation": false,
+  "status": "ADDITIVE_ONLY"
+}

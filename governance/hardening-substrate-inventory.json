@@ -1,0 +1,23 @@
+{
+  "schema_version": "parallax.contest.local-hardening-substrate.v1",
+  "authorized_use": "offline editorial/adversarial review only",
+  "runtime": {
+    "found": true,
+    "name": "Ollama",
+    "version": "0.31.1",
+    "local_command_inventory": "ollama list",
+    "remote_access": false
+  },
+  "models": [
+    {"tag": "qwen2.5:7b", "model_id": "LOCAL_MODEL_QWEN25_7B_Q4KM", "authority_manifest_sha256": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e", "installed_tag_observed": true},
+    {"tag": "qwen2.5:14b-instruct-q4_K_M", "model_id": "LOCAL_MODEL_QWEN25_14B_Q4KM", "authority_manifest_sha256": "7cdf5a0187d5c58cc5d369b255592f7841d1c4696d45a8c8a9489440385b22f6", "installed_tag_observed": true}
+  ],
+  "documented_harness": "research/reviews/experiment-3/v3-local-model-surrogate-primary-phase-a-v2/phase-b-execution-harness.py",
+  "documented_endpoint": "loopback-only Ollama path; no remote endpoint used",
+  "model_download": false,
+  "provider_calls": 0,
+  "external_model_calls": 0,
+  "local_editorial_calls": 2,
+  "local_editorial_calls_are_scientific_evidence": false,
+  "status": "LOCAL_EDITORIAL_REVIEW_COMPLETED; NO_SCIENTIFIC_EXECUTION"
+}

@@ -1,0 +1,17 @@
+{
+  "arithmetic_reconciles": true,
+  "case_costs_unchanged": true,
+  "corrected_total_usd": 0.017233750000000003,
+  "correction_source_sha256": "fc2d99b89db1ca0c8e605c2618ec65dbfef09fa4a6a64ca3c36eb8e7c0d1d22c",
+  "google_billed_output_token_count": "response output tokens + separately reported thought tokens",
+  "google_pricing_rate_usd_per_million": 3.75,
+  "google_thought_tokens_added_separately": true,
+  "provider_calls": 0,
+  "qualification_outcome_changed": false,
+  "record_type": "DERIVED_ACCOUNTING_METADATA_CORRECTION",
+  "schema_version": "parallax.contest.provider-cost-correction.v1",
+  "scientific_outcome_changed": false,
+  "source_receipt_path": "research/reviews/experiment-3/v3-real-provider-path-qualification-v1/cost-receipt.json",
+  "source_receipt_sha256": "8af26219767bd7d3c1d90469e0111f99f0a5c9c0d4e929670313b5ead23e2f88",
+  "source_usage_immutable": true
+}
