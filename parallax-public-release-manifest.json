@@ -1,8 +1,12 @@
 {
   "algorithm": "sha256(sorted UTF-8 relative POSIX path + NUL + file SHA-256 + LF); release manifest and seal excluded",
-  "created_utc": "2026-08-22T17:02:04.994074Z",
-  "file_count": 38,
+  "created_utc": "2026-08-22T17:04:57.276560Z",
+  "file_count": 39,
   "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+    },
     {
       "path": "contest-narrative.md",
       "sha256": "13b5e7f717baa744b75f36395b8ffe569005588ca1c0837608063001274ef1bc"
@@ -77,11 +81,11 @@
     },
     {
       "path": "governance/public-release-allowlist.json",
-      "sha256": "7d3792aabee33533fcf1d118e17ba1e481f9f851b2629a3a63a2c890dc123925"
+      "sha256": "05bb55eba94a6978a8f2aeb9f68a7122c34226b15b6544bca171678d1b422d33"
     },
     {
       "path": "governance/release-privacy-receipt.json",
-      "sha256": "132ac97cfa655b22cd690b7b8bc2911a50bc6195e24686c056568f3917c93eb8"
+      "sha256": "8ac282a69df9bf5e822d3116dcc3079b017cb3f558689575e88b956175c68bad"
     },
     {
       "path": "governance/semantic-diff.json",
@@ -156,7 +160,7 @@
       "sha256": "661d19dc52787dc38b2250de975aab6d5d5cb5edc984c0d95f98f7388bc489b0"
     }
   ],
-  "packet_sha256": "32fdacd3de7b80d651a2980d9b2f26362f630b629ca101796da3ffb13183d4de",
+  "packet_sha256": "f6fbdc5f06e12d2bd9c010f8d5f101671cfb3159b28ca94afe0c9dbc6e28e0f6",
   "predecessor_manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
   "predecessor_packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
   "predecessor_seal_file_sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f",

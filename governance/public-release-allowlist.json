@@ -19,6 +19,7 @@
     "governance/release-privacy-receipt.json",
     "governance/sources.md",
     "microsite/index.md",
+    ".gitattributes",
     "parallax-public-release-manifest.json",
     "parallax-public-release-seal.json",
     "predecessor/contest-package-manifest.json",
