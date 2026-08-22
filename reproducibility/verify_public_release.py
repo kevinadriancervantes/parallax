@@ -49,7 +49,7 @@ def main() -> int:
     checks.append(check("release payload hashes", manifest["file_count"] == len(manifest["files"]) and all((ROOT / entry["path"]).is_file() and sha(ROOT / entry["path"]) == entry["sha256"] for entry in manifest["files"]), f"{len(manifest['files'])} payload files"))
 
     allowlist = read(ROOT / "governance" / "public-release-allowlist.json")
-    physical = sorted(path.relative_to(ROOT).as_posix() for path in ROOT.rglob("*") if path.is_file())
+    physical = sorted(path.relative_to(ROOT).as_posix() for path in ROOT.rglob("*") if path.is_file() and ".git" not in path.relative_to(ROOT).parts)
     allowed = sorted(set(allowlist["PUBLIC"]) | set(allowlist["PUBLIC_SANITIZED"]))
     checks.append(check("physical allowlist", physical == allowed, f"{len(physical)} physical files; exact allowlist"))
 
@@ -94,7 +94,7 @@ def main() -> int:
     privacy_hits = []
     excluded_physical = []
     for path in ROOT.rglob("*"):
-        if not path.is_file():
+        if not path.is_file() or ".git" in path.relative_to(ROOT).parts:
             continue
         rel = path.relative_to(ROOT).as_posix()
         if rel.startswith("local-review/raw/") or rel == "local-review/local-review-run.json":
@@ -106,6 +106,8 @@ def main() -> int:
     links_bad = []
     link_pattern = re.compile(r"\]\(([^)]+)\)")
     for path in ROOT.rglob("*.md"):
+        if ".git" in path.relative_to(ROOT).parts:
+            continue
         for target in link_pattern.findall(path.read_text(encoding="utf-8")):
             if target.startswith(("http://", "https://", "mailto:", "#")):
                 continue

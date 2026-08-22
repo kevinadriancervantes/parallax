@@ -1,16 +1,16 @@
 {
   "confirmatory_calls": 0,
   "file_count": 39,
-  "manifest_sha256": "835c8526c91e00576cae5969373243bc4dbfad781076cd72226f0c34516845a0",
+  "manifest_sha256": "d3773fa3b34cf7cb37b0297b202b92af03ccde2791514fd82b96e55920247dca",
   "next_operation": "PUBLIC_DEPLOYMENT_AND_SUBMISSION_AUTHORIZATION",
-  "packet_sha256": "f6fbdc5f06e12d2bd9c010f8d5f101671cfb3159b28ca94afe0c9dbc6e28e0f6",
+  "packet_sha256": "667604efe707aa2030e90c19e00002a080a3ee20b86f89ddc1df18e2f6c62f53",
   "predecessor_manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
   "predecessor_packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
   "predecessor_seal_file_sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f",
   "schema_version": "parallax.public-release.seal.v1",
   "scientific_model_calls": 0,
   "scientific_result_mutation": false,
-  "sealed_utc": "2026-08-22T17:04:57.276560Z",
+  "sealed_utc": "2026-08-22T17:08:09.092744Z",
   "status": "SEALED_READY_FOR_PUBLIC_DEPLOYMENT_AND_SUBMISSION_AUTHORIZATION",
   "successor": "PARALLAX_PUBLIC_RELEASE_CANDIDATE_V1"
 }

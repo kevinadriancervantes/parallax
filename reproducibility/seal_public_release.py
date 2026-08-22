@@ -38,7 +38,7 @@ def main() -> None:
         "schema_version": "parallax.public-release.manifest.v1",
         "successor": "PARALLAX_PUBLIC_RELEASE_CANDIDATE_V1"
     }
-    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+    MANIFEST.write_bytes((json.dumps(manifest, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode("utf-8"))
     seal = {
         "confirmatory_calls": 0,
         "file_count": len(files),
@@ -55,7 +55,7 @@ def main() -> None:
         "status": "SEALED_READY_FOR_PUBLIC_DEPLOYMENT_AND_SUBMISSION_AUTHORIZATION",
         "successor": "PARALLAX_PUBLIC_RELEASE_CANDIDATE_V1"
     }
-    SEAL.write_text(json.dumps(seal, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
+    SEAL.write_bytes((json.dumps(seal, ensure_ascii=False, sort_keys=True, indent=2) + "\n").encode("utf-8"))
     print(json.dumps({"status": seal["status"], "file_count": len(files), "packet_sha256": packet, "manifest_sha256": seal["manifest_sha256"]}, sort_keys=True))
 
 
