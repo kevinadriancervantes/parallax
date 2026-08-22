@@ -1,62 +1,35 @@
-# Parallax
+# Parallax microsite content map
 
-## Can a model follow ordered evidence?
+The deployed homepage at <https://parallax.midex.app/> uses the following
+judge-first hierarchy:
 
-Parallax asks whether a model's observable assessment moves coherently as
-evidence becomes stronger or weaker, remains stable under blinded nuisance
-rewrites, and fails conservatively when a response is refused or unavailable.
-This is a behavioral measurement question—not a claim about hidden belief,
-truthfulness, consciousness, or internal mechanism.
+1. **Question:** how can strategic AI advice be tested when no policy answer key
+   exists?
+2. **Observable test:** move relevant evidence while holding
+   decision-irrelevant wording stable.
+3. **Experiment 1 failure:** 210 live calls; frozen result `NOT_SUPPORTED`; no
+   post-hoc rescue.
+4. **Experiment 2 bridge:** 888 live coordinates; both arms
+   `INSUFFICIENT_EVIDENCE`; engineering qualification separately labeled.
+5. **Experiment 3 rebuild:** five evidence doses, refusal-aware common
+   denominator, joint partial identification.
+6. **Executed evidence:** 6,674,400 synthetic checks; 4,800 local Qwen2.5
+   generations; six non-scientific provider path calls.
+7. **Local findings:** non-uniform dose behavior, 256 invalid enums, and 17/60
+   nonzero nuisance comparisons.
+8. **Claim limits:** no belief/truth/mechanism claim, no Qwen-to-provider
+   transfer, no Experiment 3 scientific provider result.
+9. **Commissionable output:** a reported ChinaTalk essay plus an interactive
+   evidence explorer.
+10. **Reproduction and status:** public verifier, live GitHub, contest not
+    submitted.
 
-## Why it matters
+The complete deployed source is [index.html](../index.html), with shared styles
+in [styles.css](../styles.css). Historical experiments remain directly
+available under [experiments](../experiments/).
 
-Strategic-policy AI evaluations need to distinguish a useful evidence-sensitive
-response from a fluent but unstable answer. Parallax makes direction, nuisance
-stability, refusal, missingness, custody, and transport failure visible in the
-evaluation contract.
-
-## How it works
-
-The instrument freezes five ordered evidence doses, three observable
-substantive response states, a separate refusal component, blinded nuisance
-pairs, provider-separated analysis, fail-closed retry/transport rules, and a
-common-denominator treatment of technical unavailability. The full design is
-described in the [contest narrative](../contest-narrative.md).
-
-## What has actually been validated
-
-- The known-ground-truth synthetic shadow covered 12 worlds and 6,674,400
-  scheduled coordinate evaluations with matching independent oracle decisions.
-- The real local-model exercise attempted 4,800 Qwen2.5 generations and
-  exposed 256 schema-invalid responses, non-monotone dose profiles, nuisance
-  instability, and a 52.48% shallow-cue diagnostic concordance.
-- Six live Anthropic/Google calls qualified production transport paths only.
-  No scientific Parallax prompt was sent.
-
-## What Parallax does not claim
-
-The local result is descriptive. The provider qualification is non-scientific.
-There is no scientific provider result, no confirmatory result, no full-joint
-power claim, and no inference about hidden belief revision or internal model
-mechanism.
-
-## Confirmatory plan and status
-
-The reference plan has two providers, 30 cells per provider, `N=9270` per
-cell, 278,100 calls per provider, 556,200 scheduled calls, and `M=210`.
-Execution is not performed and funding is not secured.
-
-## Reproduce and inspect
-
-From the public-release root:
-
-```powershell
-python reproducibility/verify_public_release.py
+```text
+PUBLICATION = LIVE
+CONTEST_SUBMISSION = NOT_PERFORMED
+NEXT_BOUNDARY = FINAL_AUG23_SUBMISSION_REVIEW
 ```
-
-Review the [executive summary](../executive-summary.md), [evidence](../evidence),
-[claim matrix](../governance/claim-evidence-matrix.csv), [GitHub repository](https://github.com/kevinadriancervantes/parallax), and [submission draft](../submission/form-draft.md).
-
-## Deployment status
-
-`https://parallax.midex.app`

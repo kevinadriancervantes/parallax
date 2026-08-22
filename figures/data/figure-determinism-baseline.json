@@ -1,0 +1,16 @@
+{
+  "generated_outputs": {
+    "data/local-model-evidence-response-profile.csv": "0348907e2ed716d6c87dc3969b8fa6709accbac386494c93f487bc544b956963",
+    "data/matlab-runtime.txt": "f2d154c8a1166930bc4740789a6e3ff8b5966192cc4d4eb85a390d00ed86c468",
+    "data/nuisance-instability-matrix.csv": "3ead3c790188fd8d17cbe162997f86bde9701fad93690e281e056c2d9e810224",
+    "local-model-evidence-response-profile.png": "09024f93fe8e041fd37e44f5c21b9cd6092e3fe63fc86707fc75de833da90a93",
+    "local-model-evidence-response-profile.svg": "417ba1947f51316b6aae1d060227c9784514b96bec47ca71cb5ef0ddfdb4988c",
+    "nuisance-instability-matrix.png": "760b2c07ae61621b28cfaacf97ad737bfd840c849fe64c783f61bf3462561a17",
+    "nuisance-instability-matrix.svg": "18b429fb23ffb03df2ab03dc415ee361312034b24984788ebfe47dd5b831b8fc",
+    "social-preview.png": "76eca76aa2d05dde8a847adbc43b346e0a42b817ee956fa1b707f3e1eba483b8"
+  },
+  "nuisance_nonzero": 17,
+  "nuisance_rows": 60,
+  "profile_rows": 60,
+  "schema_version": "parallax.aug23.figure-determinism-baseline.v1"
+}

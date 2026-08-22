@@ -1,0 +1,50 @@
+{
+  "schema_version": "parallax.aug23.research-lineage.v1",
+  "lineage_rule": "Each stage retains its accepted disposition and evidentiary role. Later engineering or exploration does not retroactively change an earlier scientific result.",
+  "experiments": [
+    {
+      "experiment": 1,
+      "role": "FIRST_LIVE_CONFIRMATORY_PROTOCOL",
+      "disposition": "NOT_SUPPORTED",
+      "calls": 210,
+      "public_summary": "evidence/experiment-1-summary.json",
+      "lesson_carried_forward": "Target movement must be selective against nuisance movement, and refusal/observability heterogeneity cannot be hidden."
+    },
+    {
+      "experiment": 2,
+      "role": "LARGER_LIVE_SUCCESSOR_AND_ENGINEERING_REBUILD",
+      "disposition": {
+        "anthropic": "INSUFFICIENT_EVIDENCE",
+        "google": "INSUFFICIENT_EVIDENCE"
+      },
+      "resolved_coordinates": 888,
+      "public_summary": "evidence/experiment-2-summary.json",
+      "lesson_carried_forward": "Scale and custody do not rescue identification when matched coverage and nuisance stability fail. Offline qualification remains engineering evidence only."
+    },
+    {
+      "experiment": 3,
+      "role": "MATURE_REFUSAL_AWARE_FIVE_DOSE_SUCCESSOR",
+      "disposition": "NO_CONFIRMATORY_PROVIDER_RESULT",
+      "validation": {
+        "known_ground_truth_synthetic_evaluations": 6674400,
+        "real_local_qwen25_generations": 4800,
+        "non_scientific_provider_path_calls": 6,
+        "scientific_provider_calls": 0
+      },
+      "public_summaries": [
+        "evidence/synthetic-shadow-summary.json",
+        "evidence/local-surrogate-summary.json",
+        "evidence/provider-qualification-summary.json",
+        "evidence/confirmatory-reference-summary.json"
+      ],
+      "current_boundary": "FULL_CONFIRMATORY_EXECUTION_NOT_PERFORMED_AND_FUNDING_NOT_SECURED"
+    }
+  ],
+  "forbidden_collapses": [
+    "Experiment 1 target movement is not a supported Experiment 1 result.",
+    "Experiment 2 post-confirmatory archaeology is not a replacement confirmatory result.",
+    "Experiment 3 synthetic validation is not real-model evidence.",
+    "Experiment 3 local Qwen2.5 evidence is not Claude/Gemini evidence.",
+    "Provider path qualification is not scientific execution."
+  ]
+}

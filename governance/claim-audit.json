@@ -1,17 +1,35 @@
 {
-  "schema_version": "parallax.contest.hardening-claim-audit.v1",
-  "scope": ["README.md", "executive-summary.md", "contest-narrative.md", "reproducibility/README.md"],
+  "schema_version": "parallax.aug23.public-claim-audit.v1",
+  "scope": [
+    "README.md",
+    "index.html",
+    "executive-summary.md",
+    "contest-narrative.md",
+    "experiments/experiment-1/index.html",
+    "experiments/experiment-2/index.html",
+    "experiments/experiment-3/index.html",
+    "submission-aug23/proposal-final.md",
+    "submission-aug23/proposal-plain.txt",
+    "reproducibility/README.md"
+  ],
   "classification_counts": {
-    "SUPPORTED": 10,
+    "SUPPORTED_OR_ROLE_BOUNDED": 19,
     "QUALIFIED": 2,
-    "DESIGN_ONLY": 0,
-    "PROHIBITED": 0,
-    "EDITORIAL_NONSCIENTIFIC": 0
+    "PROHIBITED_CLAIM_TESTS": 4
   },
-  "claim_matrix_rows": 14,
-  "evidence_pointer_requirement": "all supported/qualified material claims map to the unchanged baseline claim matrix or successor hardening evidence",
+  "claim_matrix_rows": 25,
+  "required_boundaries": {
+    "experiment_1": "NOT_SUPPORTED_RETAINED_NO_POSTHOC_RESCUE",
+    "experiment_2": "BOTH_ARMS_INSUFFICIENT_EVIDENCE_OFFLINE_QUALIFICATION_SEPARATE",
+    "experiment_3": "NO_SCIENTIFIC_PROVIDER_RESULT",
+    "local_qwen": "DESCRIPTIVE_SURROGATE_NOT_CONFIRMATORY_NOT_CHINESE_MODEL_GENERALIZATION",
+    "provider_qualification": "NON_SCIENTIFIC_PATH_ONLY",
+    "confirmatory_plan": "UNEXECUTED_NO_FULL_JOINT_POWER_CLAIM",
+    "publication": "LIVE_BUT_CONTEST_NOT_SUBMITTED"
+  },
   "prohibited_patterns_found": [],
   "design_execution_ambiguities_found": [],
   "qualification_scope_leaks_found": [],
+  "negative_result_weakening_found": [],
   "status": "PASS"
 }

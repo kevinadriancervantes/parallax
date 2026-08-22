@@ -1,0 +1,81 @@
+{
+  "schema_version": "parallax.aug23.chinatalk-form-field-map.v1",
+  "inspection_mode": "READ_ONLY_NO_FIELDS_FILLED_NO_SUBMISSION",
+  "inspected_utc_date": "2026-08-22",
+  "official_contest_page": "https://www.chinatalk.media/p/50k-chinatalk-submission-hiring-contest",
+  "form_url": "https://forms.fillout.com/t/sSHe7qxvzrus",
+  "primary_idea": {
+    "title": {
+      "form_label": "Pitch 1 Title",
+      "required": true,
+      "value": "No answer key: stress-testing strategic AI advice"
+    },
+    "description": {
+      "form_label": "Pitch 1 Description",
+      "required": true,
+      "visible_limit": "maximum 300 words",
+      "source_file": "submission-aug23/proposal-plain.txt",
+      "word_count_rule": "Unicode word-like tokens, matching verifier implementation"
+    }
+  },
+  "identity_fields": [
+    {
+      "form_label": "Name",
+      "required": true,
+      "value": "USER_INPUT_REQUIRED"
+    },
+    {
+      "form_label": "Email",
+      "required": false,
+      "value": "USER_INPUT_REQUIRED_IF_USED"
+    },
+    {
+      "form_label": "LinkedIn/personal site/past work",
+      "required": true,
+      "value": "USER_INPUT_REQUIRED",
+      "recommended_project_links": [
+        "https://parallax.midex.app/",
+        "https://github.com/kevinadriancervantes/parallax"
+      ],
+      "note": "The live form exposes one combined past-work field, not a separate project URL field."
+    }
+  ],
+  "optional_ideas": [
+    {
+      "form_label": "Pitch 2 Title / Pitch 2 Description",
+      "required": false,
+      "value": "LEAVE_BLANK_ONE_PRIMARY_IDEA_ONLY",
+      "description_visible_limit": "maximum 300 words"
+    },
+    {
+      "form_label": "Pitch 3 Title / Pitch 3 Description",
+      "required": false,
+      "value": "LEAVE_BLANK_ONE_PRIMARY_IDEA_ONLY",
+      "description_visible_limit": "NOT_EXPOSED_IN_VISIBLE_FORM_TEXT"
+    }
+  ],
+  "other_fields": [
+    {
+      "form_label": "Would you be interested in employment at ChinaTalk?",
+      "required": true,
+      "visible_options": [
+        "Full time",
+        "Part time",
+        "No, just contest"
+      ],
+      "value": "USER_CHOICE_REQUIRED"
+    },
+    {
+      "form_label": "Public/anonymity situation",
+      "required": false,
+      "value": "USER_INPUT_OPTIONAL"
+    },
+    {
+      "form_label": "Chinese level",
+      "required": false,
+      "value": "USER_CHOICE_OPTIONAL"
+    }
+  ],
+  "submission_authority": "NONE",
+  "contest_submission": "NOT_PERFORMED"
+}

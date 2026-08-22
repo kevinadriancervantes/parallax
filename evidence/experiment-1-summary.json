@@ -1,0 +1,67 @@
+{
+  "schema_version": "parallax.aug23.experiment-1-summary.v1",
+  "experiment": 1,
+  "execution_class": "LIVE_CONFIRMATORY",
+  "scientific_disposition": "NOT_SUPPORTED",
+  "selected_rule": "OTHERWISE=>NOT_SUPPORTED",
+  "design": {
+    "synthetic_strategic_scenarios": 3,
+    "provider_configurations": 2,
+    "planned_calls": 210,
+    "planned_matched_units": 48,
+    "complete_matched_units": 28,
+    "incomplete_matched_units": 20
+  },
+  "outcome_accounting": {
+    "structured": 154,
+    "behavioral_refusals": 53,
+    "schema_failures": 2,
+    "technical_failures": 1,
+    "anthropic_complete_matched_units": 5,
+    "google_complete_matched_units": 23
+  },
+  "complete_unit_vectors_order": [
+    "LEANS_H",
+    "UNRESOLVED",
+    "LEANS_NOT_H"
+  ],
+  "complete_unit_vectors": {
+    "X0": [0, 28, 0],
+    "XE": [3, 25, 0],
+    "XN-I": [0, 28, 0],
+    "XN-P": [0, 27, 1]
+  },
+  "descriptive_movement": {
+    "relevant_evidence_units": 3,
+    "contextual_nuisance_units": 0,
+    "paraphrase_nuisance_units": 1,
+    "interpretation": "Relevant-evidence movement was observed but was not selective because the paraphrase nuisance also moved one complete unit."
+  },
+  "posthoc_rescue": false,
+  "claim_boundary": {
+    "establishes": "The exact frozen necessary-property criterion for selective observable responsiveness was not satisfied in this experiment.",
+    "does_not_establish": [
+      "target evidence never affected any model",
+      "policy correctness",
+      "general strategic competence",
+      "universal nuisance invariance",
+      "real-world crisis generalization"
+    ]
+  },
+  "source_bindings": [
+    {
+      "repository_path": "research/reviews/experiment-1/confirmatory-result-acceptance-and-interpretation-v1/scientific-result-acceptance.json",
+      "sha256": "5944d61fc7fc498ec4b3f9d4fc0b6dea77c157978c076dcddd0abfeacf51125e"
+    },
+    {
+      "repository_path": "research/reviews/experiment-1/confirmatory-result-acceptance-and-interpretation-v1/outcome-accounting.json",
+      "sha256": "a2907dd3c15b611eb7fc5d428e17a99c320feb45a9614793563f3960ed43c429"
+    },
+    {
+      "repository_path": "research/reviews/experiment-1/confirmatory-result-acceptance-and-interpretation-v1/primary-categorical-reconstruction.json",
+      "sha256": "ab8cad875986ced8dbfa849cc38707bd518fd3df5ed87346742271ef5f4ab296"
+    }
+  ],
+  "accepted_evidence_identity": "4ac8293e829dc50e7c56e5a48e4984b18f80c185f7325feeeead5460f97f17a9",
+  "accepted_review_identity": "93c888db996540b71b71c41cf130a24e96a36630ca7ce1e459d58a2df0506864"
+}

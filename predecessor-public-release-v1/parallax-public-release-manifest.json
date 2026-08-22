@@ -1,0 +1,169 @@
+{
+  "algorithm": "sha256(sorted UTF-8 relative POSIX path + NUL + file SHA-256 + LF); release manifest and seal excluded",
+  "created_utc": "2026-08-22T17:15:06.458816Z",
+  "file_count": 39,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "5b6798a5153014345d84fbb96ae48d7279e6cc95a288a85d48ba898a3fb1af34"
+    },
+    {
+      "path": "contest-narrative.md",
+      "sha256": "13b5e7f717baa744b75f36395b8ffe569005588ca1c0837608063001274ef1bc"
+    },
+    {
+      "path": "evidence/confirmatory-reference-summary.json",
+      "sha256": "bbd41b336a34e6490b1571a127f8f62a261177892a2bf879e54c52002fa4c5b0"
+    },
+    {
+      "path": "evidence/local-surrogate-summary.json",
+      "sha256": "04dacca879a713d66e2729dbd04659d5c4b0214047bc7ae7b374a5327a6926d7"
+    },
+    {
+      "path": "evidence/provider-cost-correction.json",
+      "sha256": "859f74ed1133cd5ffcbcd809d3b446087bd3ed84d05d679b9947219a1c64c791"
+    },
+    {
+      "path": "evidence/provider-qualification-summary.json",
+      "sha256": "3a3680991e41093e3871713c33a3300a6d9ca20465bd369e093e7792a61d8f42"
+    },
+    {
+      "path": "evidence/synthetic-shadow-summary.json",
+      "sha256": "5b3af9a111951482b25a3b31c28c38f054a788a7d551974451bbff818bdf01e9"
+    },
+    {
+      "path": "executive-summary.md",
+      "sha256": "d84f26e909f24f8e44e5c94832582b4cfce4f63b1a0745a45be8f2f9314ae39e"
+    },
+    {
+      "path": "figures/figure-plan.md",
+      "sha256": "109884dc0374e085062f5bbd1ca8244f6097c76957142f57a0c6d759d2c3c0f1"
+    },
+    {
+      "path": "governance/accepted-lineage.json",
+      "sha256": "55d16d5dee5a462de6ec437bf9f3a516126b392404c4b3282452f184d03a44ab"
+    },
+    {
+      "path": "governance/claim-audit.json",
+      "sha256": "7ba0467a35975a736ff938d3767db62470d3245e69457bab98a370149e1dc161"
+    },
+    {
+      "path": "governance/claim-evidence-matrix.csv",
+      "sha256": "d326597bc09ab2ed9e00f92aff225d310c8712370ded9b3ac2094e9bae309f02"
+    },
+    {
+      "path": "governance/claim-firewall-review.md",
+      "sha256": "f6ad56ee02a5bf4365b1ea94611935fd636c1ab49824827c9edaacdb1febeddb"
+    },
+    {
+      "path": "governance/contradiction-audit.json",
+      "sha256": "81ceee52ee19429256c9656a2d3ef80cefea34f9e18b63e2c1ede86c1b7d6085"
+    },
+    {
+      "path": "governance/failure-semantics.md",
+      "sha256": "eeb70234a2cb71c9920eaeb4042ddc7f1082846545705f60ff994c4c779b9800"
+    },
+    {
+      "path": "governance/hardening-public-artifact-inventory.json",
+      "sha256": "6b3a4c356aedb0fb7dedda39bf6ab3f78ff404eaaff43c75c8d958d4a4e29163"
+    },
+    {
+      "path": "governance/hardening-substrate-inventory.json",
+      "sha256": "e973f4c0db48630d79ab5d3f6a535550f496eca1e71db174108c1fa1d47b5cee"
+    },
+    {
+      "path": "governance/privacy-audit.json",
+      "sha256": "52adc03b0394ed87633e36ec433f3d8a2f66be80341d4fe7159069fa459cd7e9"
+    },
+    {
+      "path": "governance/public-artifact-inventory.json",
+      "sha256": "5dacb3bfdd5a26916978d503bd469d6b9ea013559a3b9dcc63ae29a7b855419f"
+    },
+    {
+      "path": "governance/public-release-allowlist.json",
+      "sha256": "05bb55eba94a6978a8f2aeb9f68a7122c34226b15b6544bca171678d1b422d33"
+    },
+    {
+      "path": "governance/release-privacy-receipt.json",
+      "sha256": "8ac282a69df9bf5e822d3116dcc3079b017cb3f558689575e88b956175c68bad"
+    },
+    {
+      "path": "governance/semantic-diff.json",
+      "sha256": "8ff0f40c3c232cd6e6bdae805371098faafef90a18a33952ac5935f8b13f46a7"
+    },
+    {
+      "path": "governance/sources.md",
+      "sha256": "6e09d83a4ea2b4805960ff5a80af6623cb03c3a9cab7e2015f8cbf74d5de6f00"
+    },
+    {
+      "path": "hardening-accounting-reproduction.json",
+      "sha256": "fdb42df903aeb84435483b82744dfe3eed6c52d3b714f34e2cf5e54fe61c97d2"
+    },
+    {
+      "path": "hardening-report.md",
+      "sha256": "99f0f701c8d9608e46f9b4dde7cc633ade7e1a4bcd240e4e9eed37bdbe9d15eb"
+    },
+    {
+      "path": "index.html",
+      "sha256": "031e90d42d3e00b081d98656aba04d4e1abe6d777236f997122ff94e1cd72e9f"
+    },
+    {
+      "path": "local-review/local-review-normalized.json",
+      "sha256": "740b28ac4a96bed7ace56240db4945a31ced19fac9375637bd161349b82d998a"
+    },
+    {
+      "path": "microsite/index.md",
+      "sha256": "8372a8dcb36ed160f82855af575295b1aa1fd2ad313cf61a2aad7cbc1f0d925f"
+    },
+    {
+      "path": "predecessor/contest-package-manifest.json",
+      "sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522"
+    },
+    {
+      "path": "predecessor/contest-package-seal.json",
+      "sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8a25d76c732f83c6f7bca4597ef653eebc1c329adb4fbb1891b08c0400140821"
+    },
+    {
+      "path": "reproducibility/README.md",
+      "sha256": "26d15ed698dd0e02b2ae7206edf786fb0dd587d73761eb87d9aae0021d94aacb"
+    },
+    {
+      "path": "reproducibility/seal_public_release.py",
+      "sha256": "a3877894b4ccc0eb66c6aa9fdd9d98f3deb74cad2486d18eb37b3b5d69dde2e5"
+    },
+    {
+      "path": "reproducibility/verify_public_release.py",
+      "sha256": "53ceae0fb49e4af095e4c8f0e6e78713a24151e99e81a1513c167585137946e5"
+    },
+    {
+      "path": "submission/abstract-150.md",
+      "sha256": "87a8242cc5152929863062945090dfa76614a5b904ec1d47ede7c65f48d07f02"
+    },
+    {
+      "path": "submission/evaluation-title.txt",
+      "sha256": "7a9c6fd5f921d8bb321b91f0b615466e3446d10632d1696e517e9d8e0f85b997"
+    },
+    {
+      "path": "submission/form-draft.md",
+      "sha256": "c39739f64d5d6c028a6e72adf98ec35797242ba81c0fe26711c3465e55a54cc6"
+    },
+    {
+      "path": "submission/github-checklist.md",
+      "sha256": "661ea1b2d9755a25b2886ae58e3eeba61755e35517fa6ff4a41c38c66bb7cd15"
+    },
+    {
+      "path": "submission/microsite-checklist.md",
+      "sha256": "3d3068fe5d70478af6e04ae1bee47647f98c24facef5aff1b7320c3ce858a671"
+    }
+  ],
+  "packet_sha256": "097b7373b0cc89e885d09c88da668e903881dab580c7f8b03664e98c1cf567d0",
+  "predecessor_manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
+  "predecessor_packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
+  "predecessor_seal_file_sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f",
+  "schema_version": "parallax.public-release.manifest.v1",
+  "successor": "PARALLAX_PUBLIC_RELEASE_CANDIDATE_V1"
+}

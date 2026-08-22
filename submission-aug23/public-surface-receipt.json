@@ -1,0 +1,50 @@
+{
+  "schema_version": "parallax.aug23.public-surface-receipt.v1",
+  "canonical_microsite": "https://parallax.midex.app/",
+  "public_github": "https://github.com/kevinadriancervantes/parallax",
+  "microsite": "LIVE_AUDITED",
+  "github": "LIVE_AUDITED",
+  "audit_scope": [
+    "first-90-seconds information hierarchy",
+    "Experiment 1 to Experiment 2 to Experiment 3 lineage",
+    "negative-result prominence",
+    "accepted quantitative figure derivation",
+    "claim firewall",
+    "search and social metadata",
+    "accessibility structure",
+    "responsive layout",
+    "internal links",
+    "public reproducibility",
+    "physical privacy boundary"
+  ],
+  "responsive_audit": {
+    "desktop": "PASS",
+    "desktop_width_px": 1440,
+    "tablet": "PASS",
+    "tablet_width_px": 900,
+    "mobile_390px": "PASS",
+    "horizontal_overflow": "NONE"
+  },
+  "metadata": {
+    "canonical": "https://parallax.midex.app/",
+    "robots": "INDEX_FOLLOW",
+    "sitemap": "https://parallax.midex.app/sitemap.xml",
+    "open_graph": "PRESENT",
+    "twitter_card": "PRESENT",
+    "structured_data": "RESEARCH_PROJECT_PRESENT",
+    "social_preview": "figures/social-preview.png"
+  },
+  "entering_publication": {
+    "git_commit": "a6e7cf1695bd968355e3c9d7650a9b9d38b4c126",
+    "git_tag": "parallax-public-release-v1",
+    "vercel_project_id": "prj_ZQSivPl85XycG8SZVxxDLO2GQlRp",
+    "vercel_deployment_id": "dpl_A5H4qxJkQnmbs4CxEY6kyAwuxWEi",
+    "packet_sha256": "097b7373b0cc89e885d09c88da668e903881dab580c7f8b03664e98c1cf567d0"
+  },
+  "containing_release_binding": "ROOT_PARALLAX_PUBLIC_RELEASE_MANIFEST_AND_SEAL",
+  "postpublication_identity_location": "LOCAL_IMMUTABLE_AUG23_SNAPSHOT_TO_AVOID_PACKET_SELF_REFERENCE",
+  "identity_note": "The exact Git commit and deployment containing this receipt are recorded after publication in the immutable local August 23 snapshot; embedding either identity here would make the containing artifact self-referential.",
+  "new_scientific_or_provider_calls": 0,
+  "contest_submission": "NOT_PERFORMED",
+  "next_operation": "FINAL_AUG23_SUBMISSION_REVIEW_AND_AUTHORIZATION"
+}

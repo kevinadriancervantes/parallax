@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Experiment 1 — Parallax</title>
+  <meta name="description" content="Parallax Experiment 1: a 210-call live confirmatory study whose frozen rule returned NOT SUPPORTED.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://parallax.midex.app/experiments/experiment-1/">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to Experiment 1</a>
+  <header class="site-header"><div class="nav-shell"><a class="brand" href="../../">Parallax</a><nav class="primary-nav" aria-label="Experiment navigation"><a href="../experiment-2/">Experiment 2</a><a href="../experiment-3/">Experiment 3</a><a href="https://github.com/kevinadriancervantes/parallax">GitHub</a></nav></div></header>
+  <main id="main">
+    <section class="hero"><div class="shell prose">
+      <p class="kicker">Experiment 1 · accepted live result</p>
+      <h1>The first Parallax claim was not supported.</h1>
+      <p class="lede">That negative result is the beginning of the research story, not a footnote. A frozen decision rule failed because target movement was not selective and observability was uneven.</p>
+      <div class="result-strip" aria-label="Experiment 1 key facts"><div><span class="label">Disposition</span><strong class="negative">NOT SUPPORTED</strong></div><div><span class="label">Confirmatory calls</span><strong>210</strong></div><div><span class="label">Complete matched units</span><strong>28 of 48</strong></div></div>
+    </div></section>
+    <section class="section"><div class="shell prose">
+      <p class="kicker">What ran</p><h2>A small, live, falsifiable first test.</h2>
+      <p>Experiment 1 used three synthetic strategic scenarios, two provider/model configurations, four intervention conditions, and 210 live confirmatory calls. Its primary analysis compared exact categorical response vectors among complete matched units. The response order was <code>LEANS_H</code>, <code>UNRESOLVED</code>, <code>LEANS_NOT_H</code>.</p>
+      <div class="data-table-wrap"><table><thead><tr><th>Condition</th><th>Complete-unit vector</th><th>Observed role</th></tr></thead><tbody>
+        <tr><td><code>X0</code></td><td>[0, 28, 0]</td><td>Baseline</td></tr>
+        <tr><td><code>XE</code></td><td>[3, 25, 0]</td><td>Relevant evidence; 3 units moved</td></tr>
+        <tr><td><code>XN-I</code></td><td>[0, 28, 0]</td><td>Contextual nuisance; 0 units moved</td></tr>
+        <tr><td><code>XN-P</code></td><td>[0, 27, 1]</td><td>Paraphrase nuisance; 1 unit moved</td></tr>
+      </tbody></table></div>
+      <h2>Why the frozen rule failed</h2>
+      <p>Relevant evidence moved three complete units, but the nuisance paraphrase moved one. Under the accepted rule, target movement had to be selective. The exact fallback rule was <code>OTHERWISE =&gt; NOT_SUPPORTED</code>.</p>
+      <p>Observability also varied sharply: 154 of 210 calls yielded structured responses, while 53 were behavioral refusals, two were schema failures, and one was technical. Of 48 planned matched units, 20 were incomplete. One provider contributed only five complete units; the other contributed 23.</p>
+      <aside class="callout"><p><strong>No post-hoc rescue.</strong></p><p>The evidence-sensitive movement remains visible, but it does not become support after observing the nuisance movement. The accepted disposition remains <strong>NOT SUPPORTED</strong>.</p></aside>
+      <h2>What it changed</h2>
+      <p>The failure exposed three design problems for successors: a single nuisance realization could not establish semantic stability, sparse complete units could not support identification, and refusal had to be treated as a scientifically meaningful observable state rather than hidden inside missingness.</p>
+      <p><a href="../../evidence/experiment-1-summary.json">Machine-readable public summary</a> · <a href="../experiment-2/">Continue to Experiment 2 →</a></p>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-grid"><div><p class="brand">Parallax</p><p>Negative evidence preserved.</p></div><div><p><a href="../../">Return to the research story</a></p><p><a href="../../governance/claim-evidence-matrix.csv">Claim/evidence matrix</a></p></div></div></footer>
+</body>
+</html>

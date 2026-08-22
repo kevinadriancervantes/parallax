@@ -1,27 +1,24 @@
 {
-  "schema_version": "parallax.contest.hardening-contradiction-audit.v1",
+  "schema_version": "parallax.aug23.contradiction-audit.v1",
   "status": "PASS",
-  "scope": "successor public payload and preserved predecessor identity",
-  "predecessor": {
-    "packet_sha256": "5d7182dd0028c4d748d69f25eedb12c4e0cf4db500246ad4021955d4e9b0b9d5",
-    "manifest_sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522",
-    "seal_file_sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f"
+  "scope": "August 23 additive public successor and preserved accepted scientific lineage",
+  "immediate_predecessor_public_release": {
+    "packet_sha256": "097b7373b0cc89e885d09c88da668e903881dab580c7f8b03664e98c1cf567d0",
+    "manifest_sha256": "ca2a461a9931d42f45f17d15ba26b5c8d74d49bb49f1d7767e9ce4321eaf0f02",
+    "seal_file_sha256": "d21a4a9e3272a91cecef95dad2147421abec002db7066f44db666ae3a7775e1a"
   },
-  "current_hardening_call_accounting": {
-    "external_provider_calls": 0,
-    "external_model_calls": 0,
-    "local_editorial_calls": 2,
-    "confirmatory_calls": 0
+  "current_aug23_repair_call_accounting": {
+    "new_qwen_scientific_generations": 0,
+    "new_anthropic_calls": 0,
+    "new_google_calls": 0,
+    "new_confirmatory_calls": 0,
+    "matlab_role": "DETERMINISTIC_RENDERING_OF_ACCEPTED_AGGREGATES_ONLY"
   },
-  "preserved_historical_qualification": {
-    "provider_qualification_calls": 6,
-    "interpretation": "historical qualification evidence only; not new hardening execution"
-  },
-  "preserved_cost_accounting": {
-    "corrected_total_usd": 0.017233750000000003,
-    "record_type": "DERIVED_ACCOUNTING_METADATA_CORRECTION",
-    "new_provider_calls": 0,
-    "scientific_outcome_changed": false
+  "preserved_historical_execution": {
+    "experiment_1_live_calls": 210,
+    "experiment_2_live_coordinates": 888,
+    "experiment_3_local_qwen_generations": 4800,
+    "experiment_3_non_scientific_provider_qualification_calls": 6
   },
   "preserved_confirmatory_design": {
     "providers": 2,
@@ -37,12 +34,12 @@
     "account_capacity": "UNVERIFIED"
   },
   "consistency_assertions": [
-    "Current hardening local editorial review is not scientific evidence.",
-    "Historical provider qualification calls are not counted as current hardening calls.",
-    "The derived accounting correction does not rerun a provider or change an outcome.",
-    "The confirmatory reference remains design-only, unfunded, and unexecuted.",
-    "No current document claims a full-joint power result or a scientific provider result.",
-    "No successor artifact changes the predecessor packet, manifest, or seal identity."
+    "Experiment 1 remains NOT_SUPPORTED and its descriptive movement is not promoted.",
+    "Experiment 2 remains INSUFFICIENT_EVIDENCE for both arms and its offline qualification is labeled engineering-only.",
+    "Experiment 3 synthetic, local-model, and provider-path evidence retain separate roles.",
+    "No scientific provider result or full-joint power result is claimed.",
+    "The current publication is live while contest submission remains not performed.",
+    "The immediate predecessor public packet, manifest, and seal remain unchanged."
   ],
   "contradictions_found": []
 }

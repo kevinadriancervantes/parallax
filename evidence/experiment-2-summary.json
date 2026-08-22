@@ -1,0 +1,93 @@
+{
+  "schema_version": "parallax.aug23.experiment-2-summary.v1",
+  "experiment": 2,
+  "execution_class": "LIVE_CONFIRMATORY_SUCCESSOR_WITH_SEPARATE_OFFLINE_QUALIFICATION",
+  "scientific_result": {
+    "anthropic": "INSUFFICIENT_EVIDENCE",
+    "google": "INSUFFICIENT_EVIDENCE",
+    "provider_specific_support_claim": "NONE_AUTHORIZED"
+  },
+  "campaign_accounting": {
+    "planned_coordinates": 888,
+    "resolved_coordinates": 888,
+    "anthropic": 444,
+    "google": 444,
+    "main": 864,
+    "xc": 24,
+    "planned_matched_triples": 288,
+    "fully_valid_matched_units": 66,
+    "pessimistically_coded_matched_units": 222,
+    "technical_retries": 0,
+    "missing_coordinates": 0,
+    "duplicates": 0,
+    "unexpected_coordinates": 0
+  },
+  "invalidity_accounting": {
+    "behavioral_refusals": 275,
+    "schema_failures": 54,
+    "technical_truncations": 97
+  },
+  "construct_gate": {
+    "anthropic": "PASS",
+    "google": "PASS",
+    "effect_on_main_coverage_failure": "NONE"
+  },
+  "post_confirmatory_descriptive": {
+    "fully_valid_units_with_nuisance_movement": 66,
+    "fully_valid_units_total": 66,
+    "google_target_movement_units": 29,
+    "google_selective_target_movement_units": 0,
+    "anthropic_target_movement_units": 0,
+    "authority": "EXPLORATORY_ONLY_NOT_A_REPLACEMENT_CONFIRMATORY_RESULT"
+  },
+  "offline_qualification_role": {
+    "establishes": [
+      "deterministic recovery",
+      "request realization",
+      "replay",
+      "custody"
+    ],
+    "does_not_establish": [
+      "model performance",
+      "selective evidence responsiveness",
+      "scientific support"
+    ]
+  },
+  "claim_boundary": {
+    "must_not_claim": [
+      "no effect",
+      "equivalence or invariance",
+      "inverse effect",
+      "latent judgment or model belief",
+      "causal reasoning mechanism",
+      "policy correctness",
+      "general provider behavior",
+      "failure of the broader Parallax program"
+    ]
+  },
+  "source_bindings": [
+    {
+      "repository_path": "research/reviews/experiment-2/post-confirmatory-adjudication-v1/accepted-state.json",
+      "sha256": "0eef1d6678617f68080c2e20cb57c4bf6aa7d79af408a0b599c5b75981784f1a"
+    },
+    {
+      "repository_path": "research/reviews/experiment-2/post-confirmatory-adjudication-v1/confirmatory-result.json",
+      "sha256": "310d467af27dbdaa1568a2385efe88455de1de0aea35e399e41dc0a061cd94f5"
+    },
+    {
+      "repository_path": "research/reviews/experiment-2/post-confirmatory-adjudication-v1/e1-e2-comparison.json",
+      "sha256": "95030ad03f3afaf8fe92bb7a53b76b637baca0b1950f46211435005f028f976e"
+    },
+    {
+      "repository_path": "research/reviews/experiment-2/post-confirmatory-adjudication-v1/lessons.json",
+      "sha256": "3649198eddf7e1898de03e7ea919a676cb54fa1dd17fc37858d6dfec7f4d77a9"
+    },
+    {
+      "repository_path": "research/reviews/experiment-2/post-confirmatory-adjudication-v1/public-readiness.json",
+      "sha256": "56a1256e6acfa006b4af11790556b2d8f5f9fbd5cf2d7493c38afcf99aeec707"
+    }
+  ],
+  "raw_evidence_binding": "cb4db2c5274f9a481a2436551c9dba5c3f739da171b125c92e985e50da2153bd",
+  "campaign_packet_identity": "1a2ac8dbec46e8a79f51f871a9250d373324d1f46f405e15542a0a2f93e8ac0a",
+  "independent_review_identity": "4efff41e5a418c855f2f55e3c8bd00a3b5f969f8e04af4d616cd2a326c134cc2"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "parallax.aug23.deadline-receipt.v1",
+  "inspection_mode": "READ_ONLY",
+  "inspected_utc_date": "2026-08-22",
+  "official_contest_page": "https://www.chinatalk.media/p/50k-chinatalk-submission-hiring-contest",
+  "form_url": "https://forms.fillout.com/t/sSHe7qxvzrus",
+  "official_page_statement": "Proposals Due August 23rd",
+  "contest_year_from_official_page_context": 2026,
+  "first_round_format": "one paragraph per idea, up to three ideas",
+  "aug23_deadline_clock": "NOT_PUBLICLY_SPECIFIED",
+  "deadline_timezone": "NOT_PUBLICLY_SPECIFIED",
+  "form_close_metadata": "NOT_PUBLICLY_EXPOSED",
+  "recommended_submission_timing": "EARLY_ON_2026-08-23_RATHER_THAN_WAITING_FOR_AN_UNPUBLISHED_CLOCK",
+  "form_was_modified": false,
+  "form_was_submitted": false
+}

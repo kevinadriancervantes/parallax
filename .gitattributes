@@ -1,3 +1,8 @@
 * text=auto eol=lf
 predecessor/contest-package-manifest.json -text -eol
 predecessor/contest-package-seal.json -text -eol
+predecessor-public-release-v1/parallax-public-release-manifest.json -text -eol
+predecessor-public-release-v1/parallax-public-release-seal.json -text -eol
+*.png binary
+figures/data/local-model-evidence-response-profile.csv -text -eol
+figures/data/nuisance-instability-matrix.csv -text -eol
