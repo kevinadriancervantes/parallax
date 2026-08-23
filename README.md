@@ -11,7 +11,8 @@ changes?**
 
 [Read the live research story](https://parallax.midex.app/) ·
 [Executive summary](executive-summary.md) ·
-[Frozen August 23 proposal](proposal/)
+[Readable proposal](proposal/) ·
+[Raw proposal](submission-aug23/proposal-final.md)
 
 ## What happened
 
@@ -74,8 +75,9 @@ evaluation machinery**. It does not establish:
 - that surface-cue concordance identifies an internal mechanism; or
 - 95% full-claim joint power from `N=9270`.
 
-See the [claim/evidence matrix](governance/claim-evidence-matrix.csv) and
-[claim-firewall review](governance/claim-firewall/).
+See the [claim/evidence matrix](governance/claim-evidence-matrix.csv),
+[readable claim-firewall review](governance/claim-firewall/), and
+[raw claim-firewall review](governance/claim-firewall-review.md).
 
 ## Reproduce the publication
 
@@ -85,7 +87,10 @@ From this directory:
 python reproducibility/verify_public_release.py
 ```
 
-The [readable reproduction guide](reproduce/) explains the same boundary. The
+The [readable reproduction guide](reproduce/) and the [full narrative reader](research/narrative/)
+explain the same boundary. Their raw sources remain available as
+[reproduction Markdown](reproducibility/README.md) and [narrative Markdown](contest-narrative.md).
+The
 verifier requires no GPU, model weights, provider credentials, Ollama, network
 access, funding, or model/provider calls. It checks the exact public tree,
 accepted constants, experiment summaries, deterministic figure receipts,
