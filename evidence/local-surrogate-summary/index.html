@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local evidence summary — Parallax</title>
+  <meta name="description" content="Human-readable summary of the accepted 4,800-row local Qwen2.5 surrogate campaign, with raw evidence and claim boundaries preserved.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://parallax.midex.app/evidence/local-surrogate-summary/">
+  <link rel="stylesheet" href="../../styles.css">
+</head>
+<body class="reader-page">
+  <a class="skip-link" href="#main">Skip to the local evidence summary</a>
+  <header class="site-header"><div class="nav-shell"><a class="brand" href="../../">Parallax</a><nav class="primary-nav" aria-label="Evidence navigation"><a href="../../experiments/">Experiments</a><a href="../../governance/claim-firewall/">Claim firewall</a><a href="../../reproduce/">Reproduce</a><a href="https://github.com/kevinadriancervantes/parallax">GitHub</a></nav></div></header>
+  <main id="main">
+    <section class="reader-hero"><div class="shell prose">
+      <p class="kicker">Evidence · accepted local surrogate</p>
+      <h1>The models moved—but not cleanly.</h1>
+      <p class="lede">This is the human-readable view of the accepted local Qwen2.5 aggregate. It reports observable response behavior and failure accounting without turning a surrogate stress campaign into provider or confirmatory evidence.</p>
+      <div class="reader-meta"><span>PARALLAX_LOCAL_SURROGATE_V2_PRIMARY</span><span>DESCRIPTIVE ONLY</span><span>Experiment 3</span></div>
+    </div></section>
+    <section class="section"><div class="shell reader-layout">
+      <article class="prose">
+        <div class="source-bar"><div><strong>Source artifact</strong><br>Machine-readable aggregate and provenance remain authoritative.</div><div class="source-links"><a href="../local-surrogate-summary.json">Raw JSON</a> · <a href="../../experiments/experiment-3/">Experiment 3 context</a></div></div>
+        <div class="reader-stat-grid" aria-label="Local campaign headline counts">
+          <div class="reader-stat"><strong>4,800</strong><span>scheduled, attempted, and terminally accounted rows</span></div>
+          <div class="reader-stat"><strong>4,544</strong><span>valid substantive ordinal responses</span></div>
+          <div class="reader-stat"><strong>256</strong><span>schema-invalid enum values, all in 14B strata</span></div>
+        </div>
+        <h2 id="what-ran">What ran</h2>
+        <p>The campaign used Alibaba-origin Qwen2.5 open-weight models in 7B and 14B capacity strata, with deterministic and stochastic regimes. The public aggregate records 4,800 scheduled rows, no duplicate attempts, no replacements, no runtime errors, and no truncations.</p>
+        <div class="reader-card-grid">
+          <article class="reader-card"><h3>Evidence dose</h3><p>Response profiles were collected across the five ordered evidence doses used by the mature instrument. The aggregate conclusion is descriptive: dose behavior was <strong>not uniformly monotone</strong>.</p></article>
+          <article class="reader-card"><h3>Nuisance pairs</h3><p>There were 60 blinded nuisance comparisons across scenarios and local-model strata. Seventeen had a nonzero response-share shift.</p></article>
+          <article class="reader-card"><h3>Schema accounting</h3><p>Schema adherence was 94.6667%. Invalid enum outputs remain invalid; they are not repaired into substantive answers.</p></article>
+          <article class="reader-card"><h3>Surface-cue concordance</h3><p>2,519 of 4,800 outputs were concordant with a predeclared shallow-cue heuristic. This is a behavior-level observation, not evidence of internal cue use or mechanism.</p></article>
+        </div>
+        <h2 id="supports">What this supports</h2>
+        <p>The local campaign shows that real local models can produce observable dose variation, nuisance shifts, and schema-invalid output under the rebuilt instrument. Those observations are useful stress evidence for the evaluation machinery and for the limits of clean interpretation.</p>
+        <h2 id="does-not-support">What this does not support</h2>
+        <ul>
+          <li>It is not Claude or Gemini evidence and does not substitute for the unexecuted provider study.</li>
+          <li>The 7B/14B contrast is not a causal capacity effect.</li>
+          <li>Surface-cue concordance does not identify an internal mechanism.</li>
+          <li>Qwen2.5 behavior does not establish a claim about Chinese models generally.</li>
+          <li>The campaign is not a confirmatory Experiment 3 result.</li>
+        </ul>
+        <aside class="reader-note"><p><strong>Boundary.</strong> The accepted status is <code>ACCEPTED_DESCRIPTIVE_ONLY</code>. No provider scientific calls were made for this evidence, and no Experiment 3 result has been assigned.</p></aside>
+        <p><a class="button" href="../../figures/local-model-evidence-response-profile.svg">View the response profile</a> <a class="button secondary" href="../../">Return to the research story</a></p>
+      </article>
+      <aside class="reader-aside"><p class="kicker">On this page</p><ul><li><a href="#what-ran">What ran</a></li><li><a href="#supports">What it supports</a></li><li><a href="#does-not-support">What it does not support</a></li></ul><p class="muted compact">The raw JSON remains available for exact inspection and hashing.</p></aside>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-grid"><div><p class="brand">Parallax</p><p>Observable evidence response, tested fail-closed.</p></div><div><p><a href="../../">Return to the research story</a></p><p><a href="../../governance/claim-firewall/">Read the claim firewall</a></p><p><a href="../../reproduce/">Reproduce the public packet</a></p></div></div></footer>
+</body>
+</html>

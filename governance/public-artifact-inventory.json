@@ -1,7 +1,7 @@
 {
   "classification_rule": "Only public narrative/code/figures and compact public or public-sanitized evidence are physically present.",
-  "physical_file_count": 73,
-  "public_count": 55,
+  "physical_file_count": 80,
+  "public_count": 59,
   "public_paths": [
     ".gitattributes",
     "README.md",
@@ -31,6 +31,7 @@
     "governance/claim-audit.json",
     "governance/claim-evidence-matrix.csv",
     "governance/claim-firewall-review.md",
+    "governance/claim-firewall/index.html",
     "governance/contradiction-audit.json",
     "governance/failure-semantics.md",
     "governance/public-artifact-inventory.json",
@@ -42,9 +43,12 @@
     "microsite/index.md",
     "parallax-public-release-manifest.json",
     "parallax-public-release-seal.json",
+    "proposal/index.html",
+    "reproduce/index.html",
     "reproducibility/README.md",
     "reproducibility/seal_public_release.py",
     "reproducibility/verify_public_release.py",
+    "research/narrative/index.html",
     "robots.txt",
     "sitemap.xml",
     "styles.css",
@@ -59,12 +63,13 @@
     "submission/github-checklist.md",
     "submission/microsite-checklist.md"
   ],
-  "public_sanitized_count": 18,
+  "public_sanitized_count": 21,
   "public_sanitized_paths": [
     "evidence/confirmatory-reference-summary.json",
     "evidence/experiment-1-summary.json",
     "evidence/experiment-2-summary.json",
     "evidence/local-surrogate-summary.json",
+    "evidence/local-surrogate-summary/index.html",
     "evidence/provider-cost-correction.json",
     "evidence/provider-qualification-summary.json",
     "evidence/synthetic-shadow-summary.json",
@@ -77,12 +82,14 @@
     "local-review/local-review-normalized.json",
     "predecessor-public-release-v1/parallax-public-release-manifest.json",
     "predecessor-public-release-v1/parallax-public-release-seal.json",
+    "predecessor-public-release-v2/parallax-public-release-manifest.json",
+    "predecessor-public-release-v2/parallax-public-release-seal.json",
     "predecessor/contest-package-manifest.json",
     "predecessor/contest-package-seal.json"
   ],
   "raw_local_model_boundary": "Accepted aggregate profiles and compact accounting only; raw rows/responses remain local-private.",
   "raw_provider_boundary": "Hashes and compact sanitized summaries only; raw envelopes remain local-private.",
-  "release_id": "PARALLAX_AUG23_PUBLIC_RELEASE_V1",
+  "release_id": "PARALLAX_AUG23_PUBLIC_PRESENTATION_RELEASE_V1",
   "schema_version": "parallax.aug23.public-artifact-inventory.v1",
   "status": "PASS"
 }

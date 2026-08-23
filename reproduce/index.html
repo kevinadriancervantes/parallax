@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reproduce the public release — Parallax</title>
+  <meta name="description" content="Readable reproduction guide for the August 23 Parallax public release, with the exact verifier and raw README preserved.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://parallax.midex.app/reproduce/">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="reader-page">
+  <a class="skip-link" href="#main">Skip to the reproduction guide</a>
+  <header class="site-header"><div class="nav-shell"><a class="brand" href="../">Parallax</a><nav class="primary-nav" aria-label="Reproduction navigation"><a href="../experiments/">Experiments</a><a href="../governance/claim-firewall/">Claim firewall</a><a href="../proposal/">Proposal</a><a href="https://github.com/kevinadriancervantes/parallax">GitHub</a></nav></div></header>
+  <main id="main">
+    <section class="reader-hero"><div class="shell prose">
+      <p class="kicker">Reproduction · public release</p>
+      <h1>Inspect the packet without running a model.</h1>
+      <p class="lede">The public verifier is self-contained and read-only. It checks the release identity, evidence roles, deterministic figures, claim boundaries, links, and privacy boundary without credentials, network access, funding, or model/provider calls.</p>
+      <div class="reader-meta"><span>READ-ONLY VERIFIER</span><span>NO MODEL CALLS</span><span>PUBLICATION LIVE</span></div>
+    </div></section>
+    <section class="section"><div class="shell reader-layout">
+      <article class="prose">
+        <div class="source-bar"><div><strong>Source artifacts</strong><br>The raw reproduction README and verifier remain the exact implementation.</div><div class="source-links"><a href="../reproducibility/README.md">Raw README</a> · <a href="../reproducibility/verify_public_release.py">Verifier source</a></div></div>
+        <h2 id="run">Run one command</h2>
+        <p>From the root of this public tree:</p>
+        <pre class="status-block" aria-label="Reproduction command">python reproducibility/verify_public_release.py</pre>
+        <div class="reader-card-grid">
+          <article class="reader-card"><h3>What it verifies</h3><p>Predecessor receipts, release aggregate, manifest identity, payload hashes, physical allowlist, accepted Experiment 1 and 2 results, and Experiment 3 role separation.</p></article>
+          <article class="reader-card"><h3>What it does not need</h3><p>No repository sibling, GPU, Ollama runtime, model weights, provider credentials, network access, funding, or model/provider calls.</p></article>
+          <article class="reader-card"><h3>Figures</h3><p>Deterministic MATLAB figure data, source hashes, outputs, and rerun receipts are checked. MATLAB itself is not invoked by the public verifier.</p></article>
+          <article class="reader-card"><h3>Submission boundary</h3><p>The proposal word limit, form mapping, unpublished deadline-clock status, canonical metadata, links, claim firewall, and contest-submission boundary are checked.</p></article>
+        </div>
+        <h2 id="privacy">Privacy and public boundary</h2>
+        <p>No raw local scientific rows, raw provider bodies, raw editorial-model output, credentials, account identifiers, or personal machine paths are present in the public tree. The release contains compact public summaries, provenance identities, figures, and reproducibility code.</p>
+        <h2 id="authority">Current authority</h2>
+        <pre class="status-block" aria-label="Current publication authority">PUBLICATION = LIVE
+CONTEST_SUBMISSION = NOT_PERFORMED
+NEXT_BOUNDARY = FINAL_AUG23_SUBMISSION_REVIEW</pre>
+        <aside class="reader-note"><p><strong>Role boundary.</strong> Reproducibility checks packet integrity and declared evidence roles. It does not create a scientific result or execute the unrun provider study.</p></aside>
+        <p><a class="button" href="../reproducibility/verify_public_release.py">Open the verifier source</a> <a class="button secondary" href="../">Return to the research story</a></p>
+      </article>
+      <aside class="reader-aside"><p class="kicker">On this page</p><ul><li><a href="#run">Run the verifier</a></li><li><a href="#privacy">Privacy boundary</a></li><li><a href="#authority">Current authority</a></li></ul><p class="muted compact">The raw README is retained for repository-native and machine-readable review.</p></aside>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-grid"><div><p class="brand">Parallax</p><p>Reproducible, inspectable, and fail-closed.</p></div><div><p><a href="../">Return to the research story</a></p><p><a href="../governance/claim-firewall/">Read the claim firewall</a></p><p><a href="../proposal/">Read the proposal</a></p></div></div></footer>
+</body>
+</html>

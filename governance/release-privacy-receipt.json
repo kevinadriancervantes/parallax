@@ -2,9 +2,9 @@
   "development_evidence_preserved_outside_public_export": true,
   "final_public_export_contains_raw_local_review": false,
   "final_public_export_contains_raw_scientific_rows": false,
-  "physical_tree_files": 73,
-  "release_id": "PARALLAX_AUG23_PUBLIC_RELEASE_V1",
-  "scan_date": "2026-08-22",
+  "physical_tree_files": 80,
+  "release_id": "PARALLAX_AUG23_PUBLIC_PRESENTATION_RELEASE_V1",
+  "scan_date": "2026-08-23",
   "scan_mode": "physical-tree deterministic text-pattern and exact-allowlist audit",
   "scanned_categories": [
     "credentials and authorization headers",

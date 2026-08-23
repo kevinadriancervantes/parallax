@@ -18,11 +18,11 @@ MANIFEST = ROOT / "parallax-public-release-manifest.json"
 SEAL = ROOT / "parallax-public-release-seal.json"
 
 IMMEDIATE_PREDECESSOR = {
-    "manifest": ROOT / "predecessor-public-release-v1" / "parallax-public-release-manifest.json",
-    "manifest_sha256": "ca2a461a9931d42f45f17d15ba26b5c8d74d49bb49f1d7767e9ce4321eaf0f02",
-    "packet_sha256": "097b7373b0cc89e885d09c88da668e903881dab580c7f8b03664e98c1cf567d0",
-    "seal": ROOT / "predecessor-public-release-v1" / "parallax-public-release-seal.json",
-    "seal_sha256": "d21a4a9e3272a91cecef95dad2147421abec002db7066f44db666ae3a7775e1a",
+    "manifest": ROOT / "predecessor-public-release-v2" / "parallax-public-release-manifest.json",
+    "manifest_sha256": "fc16c4bda7aa892b1089ff993eed2dd24696d14a69511b51c4cdd3c2f451c7b2",
+    "packet_sha256": "004cfba15bd8a6e256d217e7acf3081f53752c538217a8db337aaaae76f0dee7",
+    "seal": ROOT / "predecessor-public-release-v2" / "parallax-public-release-seal.json",
+    "seal_sha256": "6586c22d104a8a7eda65bf360fd7879513e76aef0a4529d65b4dcfe0b4c3f297",
 }
 
 FOUNDATIONAL_PREDECESSOR = {

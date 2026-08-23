@@ -1,7 +1,7 @@
 {
   "algorithm": "sha256(sorted UTF-8 relative POSIX path + NUL + file SHA-256 + LF); release manifest and seal excluded",
-  "created_utc_date": "2026-08-23",
-  "file_count": 78,
+  "created_utc_date": "2026-08-22",
+  "file_count": 71,
   "files": [
     {
       "path": ".gitattributes",
@@ -9,7 +9,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "be05f9df6cf53f2f4fbf9dd97fd2f88aaa92b31c3a95bded2ec07ba1972c12eb"
+      "sha256": "fb9e5fa36fd988b71eb8b715a194c5e3a74c54e6b42d61dfdcb621c073e9d3a6"
     },
     {
       "path": "contest-narrative.md",
@@ -30,10 +30,6 @@
     {
       "path": "evidence/local-surrogate-summary.json",
       "sha256": "04dacca879a713d66e2729dbd04659d5c4b0214047bc7ae7b374a5327a6926d7"
-    },
-    {
-      "path": "evidence/local-surrogate-summary/index.html",
-      "sha256": "8d52b9d2e35c86d0910905d951ac8e881fa795e47a8283241e7b0cff9f9a9033"
     },
     {
       "path": "evidence/provider-cost-correction.json",
@@ -61,7 +57,7 @@
     },
     {
       "path": "experiments/experiment-3/index.html",
-      "sha256": "05a54da22b26ade7f6e4da54e6587fe19541b5711a904983db1ab830803b4b2a"
+      "sha256": "53fc760808ffe721a767b3ef8fd152d0c524859e899d9583100eb664591fae67"
     },
     {
       "path": "experiments/index.html",
@@ -148,10 +144,6 @@
       "sha256": "ca6ca59a61ac5bd000c61f5217ead92da5f3223089f34cb226d602b8f72f9b0e"
     },
     {
-      "path": "governance/claim-firewall/index.html",
-      "sha256": "717a0e47f3edfa7b8e0754c57d6e7e1c169626edbdd5084eefd28ec33e1108a8"
-    },
-    {
       "path": "governance/contradiction-audit.json",
       "sha256": "787ecd89315833717cb3109b53cd60fb8eaeca82813301a76353fd4d2dab92d4"
     },
@@ -173,15 +165,15 @@
     },
     {
       "path": "governance/public-artifact-inventory.json",
-      "sha256": "50ab3d10c1a83fd4bb9706fe4102d4273b3308b656e718d32772bf90238298cb"
+      "sha256": "cdd38fb7ec55493549593ad6852e4ad7efc00ad9828f0b7138b27dd9e8018393"
     },
     {
       "path": "governance/public-release-allowlist.json",
-      "sha256": "f931dc02ee63ac438724deaaf7e6545cf0a14b21c2a83e762dff7be964dec439"
+      "sha256": "b28b40149f190f7a030518a5f045f96de8345378aa27f8645aba152a9e5671e3"
     },
     {
       "path": "governance/release-privacy-receipt.json",
-      "sha256": "28ebd46026541dbf89bd6cc0f9e90e66b40a0951a9b600104913e255039d0c26"
+      "sha256": "30aa9b50342e30538c6c2967e903525197319d21358b85d449f8b894b98cfaf1"
     },
     {
       "path": "governance/research-lineage.json",
@@ -205,7 +197,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "e94c8e9040cedfce4b99cbb8019ec5a3aefc2a9861bcf0d74db56074267ab945"
+      "sha256": "ae1e4ccb8b55a4975b6338426f345b988ae62204b7704e13463f354dcb8ecb8e"
     },
     {
       "path": "local-review/local-review-normalized.json",
@@ -224,14 +216,6 @@
       "sha256": "d21a4a9e3272a91cecef95dad2147421abec002db7066f44db666ae3a7775e1a"
     },
     {
-      "path": "predecessor-public-release-v2/parallax-public-release-manifest.json",
-      "sha256": "fc16c4bda7aa892b1089ff993eed2dd24696d14a69511b51c4cdd3c2f451c7b2"
-    },
-    {
-      "path": "predecessor-public-release-v2/parallax-public-release-seal.json",
-      "sha256": "6586c22d104a8a7eda65bf360fd7879513e76aef0a4529d65b4dcfe0b4c3f297"
-    },
-    {
       "path": "predecessor/contest-package-manifest.json",
       "sha256": "9b1c4d373320410ff248c067e7be2fb80edaf44f88ed0816bd04f1f4b64f2522"
     },
@@ -240,28 +224,16 @@
       "sha256": "d32450cc9b77f0ddf4c0372a5a75cb3b76e2fab96926a58fd29297af3679599f"
     },
     {
-      "path": "proposal/index.html",
-      "sha256": "1c5cf7e734d76f4f740e539cf8d07c4a936d68798643cd8635b6daf6e808b9f4"
-    },
-    {
-      "path": "reproduce/index.html",
-      "sha256": "b4bb2d008ba641a5f236b3a3c2f81a0f814b22c5f1aca025b7f555951eafb6dd"
-    },
-    {
       "path": "reproducibility/README.md",
       "sha256": "a94bf5d3984011127e1713a51b22a7d8c6e093864e226d0c286511bb1b267914"
     },
     {
       "path": "reproducibility/seal_public_release.py",
-      "sha256": "62b59f4a370c277b7b7dba08a21aad12c6152ebe6fd56439906de103984dc051"
+      "sha256": "2a71fb0284d9379de965aff5a46d861a97ef08743feb94b0b9540d8889c58412"
     },
     {
       "path": "reproducibility/verify_public_release.py",
-      "sha256": "d126a22a9e1a8f49fa7013dcccbc804d238b1608f4d8ea28ea0d0d605e9e166e"
-    },
-    {
-      "path": "research/narrative/index.html",
-      "sha256": "8346f29f3116788fafb971c7ffabd82ab6af2e0d8151dda64f91934e33b793e3"
+      "sha256": "98bcf3f5c613e77df6e869ef4c854d53664166f4457cccdbaf81b807e72743be"
     },
     {
       "path": "robots.txt",
@@ -269,11 +241,11 @@
     },
     {
       "path": "sitemap.xml",
-      "sha256": "b6e518dddf299c2a9f29350f7e12537975684e66bb29d7595f9eb308b11f91ad"
+      "sha256": "950d0cece99dc0a7008449c6b4dca8ea84c06ce243d633db3174d87fda9c6776"
     },
     {
       "path": "styles.css",
-      "sha256": "53ceae1c3d46727c7421c6004e32c6d6658c025ad17bc1e7819bc5d5e06327b3"
+      "sha256": "ff6700b4236938497eab60695d2755ffbd86198d03c8468f473d37cf8c35e977"
     },
     {
       "path": "submission-aug23/deadline-receipt.json",
@@ -324,13 +296,13 @@
     "seal_path": "predecessor/contest-package-seal.json"
   },
   "immediate_predecessor": {
-    "manifest_path": "predecessor-public-release-v2/parallax-public-release-manifest.json",
-    "manifest_sha256": "fc16c4bda7aa892b1089ff993eed2dd24696d14a69511b51c4cdd3c2f451c7b2",
-    "packet_sha256": "004cfba15bd8a6e256d217e7acf3081f53752c538217a8db337aaaae76f0dee7",
-    "seal_file_sha256": "6586c22d104a8a7eda65bf360fd7879513e76aef0a4529d65b4dcfe0b4c3f297",
-    "seal_path": "predecessor-public-release-v2/parallax-public-release-seal.json"
+    "manifest_path": "predecessor-public-release-v1/parallax-public-release-manifest.json",
+    "manifest_sha256": "ca2a461a9931d42f45f17d15ba26b5c8d74d49bb49f1d7767e9ce4321eaf0f02",
+    "packet_sha256": "097b7373b0cc89e885d09c88da668e903881dab580c7f8b03664e98c1cf567d0",
+    "seal_file_sha256": "d21a4a9e3272a91cecef95dad2147421abec002db7066f44db666ae3a7775e1a",
+    "seal_path": "predecessor-public-release-v1/parallax-public-release-seal.json"
   },
-  "packet_sha256": "f5de53a1937733a1ffb50d79eb06f7b60d07a9410d977f21023ea01c09832610",
+  "packet_sha256": "004cfba15bd8a6e256d217e7acf3081f53752c538217a8db337aaaae76f0dee7",
   "schema_version": "parallax.aug23.public-release.manifest.v1",
-  "successor": "PARALLAX_AUG23_PUBLIC_PRESENTATION_RELEASE_V1"
+  "successor": "PARALLAX_AUG23_PUBLIC_RELEASE_V1"
 }

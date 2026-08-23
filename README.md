@@ -11,7 +11,7 @@ changes?**
 
 [Read the live research story](https://parallax.midex.app/) ·
 [Executive summary](executive-summary.md) ·
-[Frozen August 23 proposal](submission-aug23/proposal-final.md)
+[Frozen August 23 proposal](proposal/)
 
 ## What happened
 
@@ -75,7 +75,7 @@ evaluation machinery**. It does not establish:
 - 95% full-claim joint power from `N=9270`.
 
 See the [claim/evidence matrix](governance/claim-evidence-matrix.csv) and
-[claim-firewall review](governance/claim-firewall-review.md).
+[claim-firewall review](governance/claim-firewall/).
 
 ## Reproduce the publication
 
@@ -85,9 +85,10 @@ From this directory:
 python reproducibility/verify_public_release.py
 ```
 
-The verifier requires no GPU, model weights, provider credentials, Ollama,
-network access, funding, or model/provider calls. It checks the exact public
-tree, accepted constants, experiment summaries, deterministic figure receipts,
+The [readable reproduction guide](reproduce/) explains the same boundary. The
+verifier requires no GPU, model weights, provider credentials, Ollama, network
+access, funding, or model/provider calls. It checks the exact public tree,
+accepted constants, experiment summaries, deterministic figure receipts,
 proposal constraints, links, privacy boundary, and publication seal.
 
 ## Current status
