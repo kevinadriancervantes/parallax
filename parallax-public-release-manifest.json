@@ -205,7 +205,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "e94c8e9040cedfce4b99cbb8019ec5a3aefc2a9861bcf0d74db56074267ab945"
+      "sha256": "3a2637083791c56036900a9419ee7058e994c4d43326fd43ff63f1611f041823"
     },
     {
       "path": "local-review/local-review-normalized.json",
@@ -330,7 +330,7 @@
     "seal_file_sha256": "6586c22d104a8a7eda65bf360fd7879513e76aef0a4529d65b4dcfe0b4c3f297",
     "seal_path": "predecessor-public-release-v2/parallax-public-release-seal.json"
   },
-  "packet_sha256": "25373b0a4dbd2d475fab855a96518cc1fe76af74401f0d0caaea2d8c6fbfd173",
+  "packet_sha256": "bfeab72d7c20ca29c5ea7628ec0505b27835fcee4037a21b181b3c0d6af89b0d",
   "schema_version": "parallax.aug23.public-release.manifest.v1",
   "successor": "PARALLAX_AUG23_PUBLIC_PRESENTATION_RELEASE_V1"
 }
