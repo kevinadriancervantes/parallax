@@ -1,0 +1,47 @@
+{
+  "schema_version": "parallax.situation-room-publication-authority.v1",
+  "receipt_id": "PARALLAX_SR11R1_PUBLICATION_AUTHORITY_V1",
+  "authorization_recorded_utc": "2026-08-29T17:16:23.787Z",
+  "authority": {
+    "publication": "EXPLICITLY_AUTHORIZED_BY_HUMAN",
+    "github_publication": "AUTHORIZED",
+    "vercel_preview_and_production_promotion": "AUTHORIZED",
+    "chinatalk_submission": "NOT_AUTHORIZED",
+    "provider_calls": "NOT_AUTHORIZED",
+    "new_science": "NOT_AUTHORIZED",
+    "supabase": "OUT_OF_SCOPE"
+  },
+  "baseline": {
+    "github_repository": "kevinadriancervantes/parallax",
+    "commit": "fa9ca97ab6633093e7225d851531dab53ad0a4ab",
+    "tree": "0a53331a3c585e6d5661988d27a221215caa84a8"
+  },
+  "sr11r1": {
+    "packet_identity": "1a590a4ab72922008657fc39acabead7f9f3923113ee0bcbc648ff99db0251e4",
+    "public_safe_projection_identity": "4fb3cb59518afbc7f3b41901925a1c8fb2ec172b211c0b795fd0d5f1035785c5",
+    "destination": "situation-room/",
+    "frozen_artifact_count": 5,
+    "frozen_artifacts": [
+      {"path": "app.js", "bytes": 21319, "sha256": "21dcf31c2bd61ccdb73a3de9877150067b21c95a7dc81ce9c79b15af414cc1e0"},
+      {"path": "data/data.json", "bytes": 788968, "sha256": "db107bf3c2080f431d0eaaee044b09d63af3f8e4b349c2c85f2110289cdfd9c0"},
+      {"path": "index.html", "bytes": 2016, "sha256": "012aacd2f2334d5c60999f9c944aedcd79ca625b58b84cce473701fd5695b1ab"},
+      {"path": "README.md", "bytes": 322, "sha256": "b8fdc3eab319bdc30ac9d04881563019a1a49a1119005fffcb621f7afeeb498c"},
+      {"path": "styles.css", "bytes": 7799, "sha256": "ca147a49e00b0a814ab5658eeee48318a3723155cbab8fe3c5d6a4db8e3b89c0"}
+    ],
+    "mutation_authority": "NONE",
+    "byte_preservation_required": true
+  },
+  "public_context": {
+    "historical_private_labels_preserved": true,
+    "explanation": "The preserved labels describe the frozen pre-publication authority state. Current publication is authorized by this additive receipt.",
+    "governing_local_campaign": "SR-8R1_1600_ROWS",
+    "transport_unavailable": "777_OF_1600",
+    "predecessor_4800_row_campaign": "HISTORICAL_NON_GOVERNING",
+    "frontier_provider_scientific_result": "NONE",
+    "operational_utility": "NOT_EARNED"
+  },
+  "public_contact": {
+    "email": "kevinadriancervantes@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/kevinadriancervantes/"
+  }
+}

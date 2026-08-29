@@ -1,0 +1,16 @@
+{
+  "authority_receipt_sha256": "63d68dae799eba6e40248dee22aa8f258590caac2fd9311ade41ab754a1fde9f",
+  "chinatalk_submission": "NOT_PERFORMED",
+  "frozen_artifacts_mutated": "NO",
+  "manifest_identity": "b3e7492dcf508eaa36acd451e461720eae393fb1889e66d96edc58d193c4f69f",
+  "manifest_sha256": "1ea58b784208cbe2dd48421b7cef622270b389e23e5675410f85561f50d09122",
+  "new_scientific_calls": 0,
+  "next_boundary": "HUMAN_CHINATALK_SUBMISSION_DECISION",
+  "packet_identity": "4f05cee3272b9e63ed7f608212aca545e2cd61918efeca21c963290749c3c687",
+  "provider_calls": 0,
+  "schema_version": "parallax.situation-room-publication-seal.v1",
+  "sealed_utc": "2026-08-29T17:21:10.657Z",
+  "sr11r1_packet": "1a590a4ab72922008657fc39acabead7f9f3923113ee0bcbc648ff99db0251e4",
+  "sr11r1_public_safe_projection": "4fb3cb59518afbc7f3b41901925a1c8fb2ec172b211c0b795fd0d5f1035785c5",
+  "status": "PARALLAX_SITUATION_ROOM_PUBLICATION_PACKAGE_SEALED"
+}

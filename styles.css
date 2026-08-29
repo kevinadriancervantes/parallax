@@ -98,6 +98,12 @@ img, svg { max-width: 100%; height: auto; }
 
 .primary-nav a { color: var(--ink-soft); text-decoration: none; }
 .primary-nav a:hover { color: var(--rust); }
+.primary-nav .nav-emphasis {
+  padding: .42rem .68rem;
+  border: 1px solid var(--rust);
+  border-radius: .2rem;
+  color: var(--rust-dark);
+}
 
 main { overflow: hidden; }
 
@@ -220,6 +226,47 @@ h1 {
 }
 
 .negative { color: var(--rust-dark) !important; }
+
+.situation-room-launch {
+  background:
+    linear-gradient(135deg, rgba(21,47,79,.98), rgba(13,33,57,.98)),
+    var(--navy);
+  color: #e9edf2;
+}
+
+.situation-room-launch h2,
+.situation-room-launch h3,
+.situation-room-launch a { color: white; }
+
+.situation-room-launch .kicker { color: #efc77b; }
+
+.situation-room-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(20rem, .85fr);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: center;
+}
+
+.situation-room-lede {
+  max-width: 45rem;
+  color: #d2dae5;
+  font-size: 1.16rem;
+}
+
+.situation-room-launch .button { border-color: var(--gold); background: var(--gold); color: var(--ink); }
+.situation-room-launch .button:hover { border-color: white; background: white; color: var(--ink); }
+.situation-room-launch .button.secondary { border-color: #d2dae5; background: transparent; color: white; }
+
+.situation-room-context {
+  padding: clamp(1.35rem, 3vw, 2rem);
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: .4rem;
+  background: rgba(255,255,255,.075);
+}
+
+.situation-room-context ul { margin: 1.2rem 0; padding-left: 1.2rem; }
+.situation-room-context li + li { margin-top: .7rem; }
+.situation-room-context code { color: #ffe1a4; }
 
 .section {
   padding: clamp(4.2rem, 8vw, 7rem) 0;
@@ -605,6 +652,7 @@ th { color: var(--ink); font: 750 .75rem/1.3 system-ui, sans-serif; letter-spaci
   .two-column { grid-template-columns: 1fr; }
   .reader-layout { grid-template-columns: 1fr; }
   .reader-aside { position: static; }
+  .situation-room-grid { grid-template-columns: 1fr; }
   .primary-nav a:nth-child(2), .primary-nav a:nth-child(3) { display: none; }
 }
 

@@ -10,9 +10,24 @@ move too—and does it stay stable when only decision-irrelevant wording
 changes?**
 
 [Read the live research story](https://parallax.midex.app/) ·
+[Open the Situation Room](https://parallax.midex.app/situation-room/) ·
 [Executive summary](executive-summary.md) ·
 [Readable proposal](proposal/) ·
 [Raw proposal](submission-aug23/proposal-final.md)
+
+## Situation Room
+
+The judge-facing [Situation Room](situation-room/) publishes the five frozen
+SR-11R1 public-safe artifacts byte-for-byte. It presents the governing
+1,600-row SR-8R1 local campaign, including 777 transport-unavailable rows kept
+on the denominator. The earlier 4,800-row Qwen2.5 campaign remains available
+as non-governing predecessor evidence; it is not substituted for SR-8R1.
+
+The frozen module retains its historical `PRIVATE CANDIDATE`, `no publication
+authority`, and `noindex,nofollow` language. Those labels describe its sealed
+pre-publication state. The additive [publication receipt](publication/situation-room-v1/)
+records the later human authority to publish those exact bytes. Publication is
+not ChinaTalk submission and creates no frontier-provider scientific result.
 
 ## What happened
 
@@ -31,8 +46,10 @@ Parallax is a three-experiment research lineage, not a single polished result:
 3. **Experiment 3 — mature protocol, provider science unexecuted.** The rebuilt
    instrument uses five evidence doses, records refusal separately, and keeps
    unavailable mass in a joint partial-identification analysis. It survived
-   6,674,400 known-ground-truth synthetic checks and was stressed with 4,800
-   real local Qwen2.5 generations. The full Claude/Gemini confirmatory study is
+   6,674,400 known-ground-truth synthetic checks. Its governing contest-facing
+   local evidence is the 1,600-row SR-8R1 two-family campaign; 777 rows were
+   transport-unavailable. The separate 4,800-row Qwen2.5 campaign remains
+   predecessor stress evidence. The full Claude/Gemini confirmatory study is
    designed but unfunded and has not run.
 
 Detailed public records:
@@ -84,17 +101,17 @@ See the [claim/evidence matrix](governance/claim-evidence-matrix.csv),
 From this directory:
 
 ```powershell
-python reproducibility/verify_public_release.py
+python reproducibility/verify_situation_room_publication.py
 ```
 
 The [readable reproduction guide](reproduce/) and the [full narrative reader](research/narrative/)
 explain the same boundary. Their raw sources remain available as
 [reproduction Markdown](reproducibility/README.md) and [narrative Markdown](contest-narrative.md).
-The
-verifier requires no GPU, model weights, provider credentials, Ollama, network
-access, funding, or model/provider calls. It checks the exact public tree,
-accepted constants, experiment summaries, deterministic figure receipts,
-proposal constraints, links, privacy boundary, and publication seal.
+The Situation Room publication verifier requires no GPU, model weights,
+provider credentials, Ollama, network access, funding, or model/provider calls.
+It verifies the full successor tree, frozen SR-11R1 hashes, public authority
+receipt, internal links, privacy boundary, and publication seal. The original
+August-23 verifier remains preserved as predecessor evidence.
 
 ## Current status
 
@@ -105,9 +122,14 @@ EXPERIMENT_2 = INSUFFICIENT_EVIDENCE
 EXPERIMENT_3_CONFIRMATORY_EXECUTION = NOT_PERFORMED
 SCIENTIFIC_PROVIDER_RESULT = NONE
 FULL_CONFIRMATORY_EXECUTION_FUNDING = NOT_SECURED
+SITUATION_ROOM_PUBLICATION = AUTHORIZED_AND_LIVE
+SR11R1_FROZEN_ARTIFACTS_MUTATED = NO
 CONTEST_SUBMISSION = NOT_PERFORMED
-NEXT_BOUNDARY = FINAL_AUG23_SUBMISSION_REVIEW
+NEXT_BOUNDARY = HUMAN_CHINATALK_SUBMISSION_DECISION
 ```
+
+Contact: [kevinadriancervantes@gmail.com](mailto:kevinadriancervantes@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/kevinadriancervantes/)
 
 The six Anthropic/Google calls in this release were non-scientific transport
 qualification only. Publication does not constitute ChinaTalk submission.
