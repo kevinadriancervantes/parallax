@@ -1,0 +1,14 @@
+{
+  "authority": "EXPLICIT_HUMAN_PUBLICATION_AUTHORIZATION_IN_ATTACHED_RUN",
+  "authorized_utc": "2026-08-29T23:06:00.557Z",
+  "entering_deployment": "dpl_eVEaM4usuoz7aWvzLvVmevED9dNF",
+  "entering_git_commit": "0fcd5f8b099ffdcbf7d5ab11f97fab40f7f139b6",
+  "entering_git_tree": "c187ce9154ebe18ca362ff783e6b27889b07d63d",
+  "frozen_artifacts_mutated": "NO",
+  "new_scientific_calls": 0,
+  "provider_calls": 0,
+  "scientific_mutation_authority": "NONE",
+  "scope": "POLICY_READER_PRESENTATION_SUCCESSOR",
+  "submission_authority": "NONE",
+  "supabase_authority": "NONE"
+}

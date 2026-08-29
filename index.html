@@ -7,7 +7,7 @@
   <meta name="description" content="Parallax tests whether strategic AI assessments move with relevant evidence, remain stable under nuisance variation, and fail visibly when unavailable. Open the Situation Room to inspect the governing 1,600-row SR-8R1 campaign.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://parallax.midex.app/">
-  <link rel="stylesheet" href="styles.css?v=public-presentation-v1">
+  <link rel="stylesheet" href="styles.css?v=public-presentation-v2">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Parallax">
   <meta property="og:title" content="No answer key: stress-testing strategic AI advice">
@@ -38,15 +38,20 @@
   <header class="site-header">
     <div class="nav-shell">
       <a class="brand" href="/">Parallax</a>
-      <nav class="primary-nav" aria-label="Primary navigation">
+      <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
         <a class="nav-emphasis" href="situation-room/">Situation Room</a>
         <a href="#story">The story</a>
+        <a href="#why">Why it matters</a>
         <a href="#lineage">Experiments</a>
         <a href="#evidence">Evidence</a>
         <a href="#limits">Limits</a>
         <a href="#contact">Contact</a>
         <a href="https://github.com/kevinadriancervantes/parallax">GitHub</a>
       </nav>
+      <div class="mobile-header-actions">
+        <a class="nav-emphasis mobile-sr-cta" href="situation-room/">Situation Room</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"><span class="nav-toggle-icon" aria-hidden="true">☰</span><span>Menu</span></button>
+      </div>
     </div>
   </header>
 
@@ -93,11 +98,28 @@
           <p class="eyebrow">Current evidence</p>
           <h3>Two local model families · 1,600 scheduled runs</h3>
           <ul>
-            <li><strong>823 observable assessments</strong>; 777 technical/runtime failures remain in the accounting.</li>
+            <li><strong>823 rows reached a non-transport terminal state</strong>: 822 substantive ordinal assessments and one measurement-unavailable row; 777 transport-unavailable rows remain in the denominator.</li>
             <li><strong>Earlier 4,800-run stress campaign:</strong> preserved separately and never pooled with the current result.</li>
             <li><strong>Claude/Gemini science:</strong> not run. <strong>Operational utility:</strong> not established.</li>
           </ul>
-          <p class="compact">Technical identities, custody records, and the exact frozen pre-publication artifact remain available through <a href="situation-room/#provenance">provenance</a> and GitHub.</p>
+          <p class="compact">The public story comes first. Exact contracts, custody records, and preserved historical bytes remain available in the <a href="https://github.com/kevinadriancervantes/parallax">technical repository</a>.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="why">
+      <div class="shell two-column">
+        <div>
+          <p class="kicker">Why this matters in government</p>
+          <h2>Before relying on AI advice, test what moves it.</h2>
+          <p>Strategic questions often have no single answer key. That makes ordinary accuracy scoring a poor test of whether an assessment responds to the evidence or to the way the evidence is presented.</p>
+          <p>Parallax gives a decision-maker a narrower, inspectable signal: does the observable assessment change when controlled evidence changes, and does it remain comparatively stable when only decision-irrelevant wording changes?</p>
+        </div>
+        <aside class="callout" aria-label="What Parallax can and cannot tell a policy reader">
+          <p><strong>What it can show.</strong></p>
+          <p>Whether an assessment is visibly evidence-responsive, presentation-fragile, stable but insensitive to the tested evidence, or too unavailable to interpret.</p>
+          <p><strong>What it cannot show.</strong></p>
+          <p>Correct policy, hidden beliefs, intent, or operational usefulness. Those claims require evidence this project has not collected.</p>
         </aside>
       </div>
     </section>
@@ -135,7 +157,7 @@
           <article class="brief-card">
             <span class="number" aria-hidden="true">05</span>
             <h3>What real models did</h3>
-            <p>The governing 1,600-row SR-8R1 campaign produced bounded Vela and Afghanistan profiles; 777 rows were transport-unavailable. Earlier 4,800-row Qwen evidence remains historical and non-governing.</p>
+            <p>The governing SR-8R1 campaign produced bounded Vela and Afghanistan profiles: 823 rows reached a non-transport terminal state, comprising 822 substantive assessments and one measurement-unavailable row; 777 rows were transport-unavailable. Earlier 4,800-row Qwen evidence remains historical and non-governing.</p>
           </article>
           <article class="brief-card">
             <span class="number" aria-hidden="true">06</span>
@@ -229,17 +251,19 @@
       </div>
     </section>
 
-    <section class="section" id="china">
+    <section class="section dark" id="frontier">
       <div class="shell two-column">
         <div>
-          <p class="kicker">Why this is a China + AI story</p>
-          <h2>A Chinese open model family made the instrument fail in useful ways.</h2>
-          <p>Parallax used Alibaba-origin <a href="https://qwenlm.github.io/blog/qwen2.5/">Qwen2.5 open-weight models</a> locally as surrogate stress evidence. They were inexpensive enough to expose non-monotone dose paths, nuisance sensitivity, and response-schema failure before a costly provider campaign.</p>
-          <p>That is substantive China/AI relevance: open models developed by a major Chinese AI team can be part of rigorous, reproducible evaluation infrastructure—not just the object of geopolitical comparison.</p>
+          <p class="kicker">Why run the full study?</p>
+          <h2>The frontier question is still worth asking because every outcome is informative.</h2>
+          <p>Claude and Gemini were studied in Experiments 1 and 2, but not with the mature Experiment 3 instrument. The local campaign has already shown why this matters: evidence-response profiles, wording sensitivity, refusal, schema failure, transport unavailability, and conservative accounting all remain visible.</p>
+          <p>A future provider run could reveal evidence-responsive and wording-stable behavior, evidence-responsive but presentation-fragile behavior, stable but insensitive behavior, high refusal or unavailability, insufficient identification, or provider differences. Parallax does not assume a favorable result.</p>
         </div>
-        <aside class="callout" aria-label="China and Qwen claim boundary">
-          <p><strong>The boundary matters.</strong></p>
-          <p>Qwen does not represent “Chinese models,” the local results do not transfer to Claude or Gemini, and the observed behavior does not support geopolitical or internal-mechanism conclusions. Capacity strata are descriptive and unpaired, not causal.</p>
+        <aside class="callout" aria-label="Frontier experiment prerequisites">
+          <p><strong>What is ready.</strong></p>
+          <p>The reference scientific design and offline execution package are sealed; the method is ready for pre-execution qualification.</p>
+          <p><strong>What is not done.</strong></p>
+          <p>Funding, account/capacity verification, fresh provider/model/path review, sacrificial qualification, and explicit execution authority remain prerequisites. No frontier Experiment 3 scientific result exists.</p>
         </aside>
       </div>
     </section>
@@ -269,16 +293,16 @@
       </div>
     </section>
 
-    <section class="section" id="commission">
+    <section class="section" id="release">
       <div class="shell two-column">
         <div>
-          <p class="kicker">Submission history</p>
-          <h2>One contest is historical. The Situation Room entry is not submitted.</h2>
+          <p class="kicker">The public research release</p>
+          <h2>Explore the evidence now; inspect the exact method when you want it.</h2>
         </div>
         <div>
-          <p>The August 23 broad ChinaTalk proposal was submitted and did not advance. It is preserved exactly as a historical artifact, including its then-current framing.</p>
-          <p>The September 1 Situation Room entry has not been submitted. This public release presents the evaluation and its evidence; publication does not submit the contest form.</p>
-          <div class="actions"><a class="button" href="proposal/">Read the August 23 submitted proposal</a><a class="button secondary" href="research/narrative/">Current research narrative</a></div>
+          <p>The Situation Room is the guided reader experience: cases, evidence doses, observable response profiles, unavailability, nuisance sensitivity, validation, and limitations.</p>
+          <p>The repository is the audit layer: exact data, contracts, verifiers, hashes, historical records, and reproduction instructions.</p>
+          <div class="actions"><a class="button" href="situation-room/">Open the Situation Room</a><a class="button secondary" href="research/narrative/">Read the full research narrative</a></div>
         </div>
       </div>
     </section>
@@ -290,9 +314,9 @@
             <p class="kicker">Reproduce the public release</p>
             <h2>No model, GPU, credential, or network call required.</h2>
           </div>
-          <p class="section-intro">The verifier checks packet identity, accepted constants, evidence summaries, figure receipts, proposal constraints, links, privacy, and claim boundaries from the published tree.</p>
+          <p class="section-intro">The verifier checks the public evidence boundary, accepted constants, unchanged scientific files, links, privacy, and claim limits from the published tree.</p>
         </div>
-        <pre class="status-block" aria-label="Reproduction command">python reproducibility/verify_public_presentation_successor.py</pre>
+        <pre class="status-block" aria-label="Reproduction command">python reproducibility/verify_policy_reader_presentation.py</pre>
         <p><a href="reproduce/">Read the complete reproduction instructions</a></p>
       </div>
     </section>
@@ -304,12 +328,12 @@
             <p class="kicker">What exists today</p>
             <h2>A public evaluation release, with the scientific boundary intact.</h2>
           </div>
-          <p class="section-intro">The instrument, local evidence, failures, and reproduction path are public. The frontier-provider study remains unexecuted, and the Situation Room contest form remains unsubmitted.</p>
+          <p class="section-intro">The instrument, local evidence, failures, and reproduction path are public. The frontier-provider study remains designed but unexecuted.</p>
         </div>
         <div class="brief-grid">
           <article class="brief-card"><h3>Scientific record</h3><p>Experiment 1 was not supported. Experiment 2 returned insufficient evidence. Experiment 3 has governing local evidence but no frontier-provider scientific result.</p></article>
           <article class="brief-card"><h3>Public evidence</h3><p>The Situation Room is live. Its frozen predecessor remains byte-preserved, and the current presentation adds no scientific observation or classification.</p></article>
-          <article class="brief-card"><h3>Contest status</h3><p>August 23: submitted, not advanced, historical. September 1 Situation Room: not submitted. Submission remains a separate human decision.</p></article>
+          <article class="brief-card"><h3>Frontier boundary</h3><p>Claude and Gemini have no Experiment 3 scientific result. Their paths were qualified separately; the 556,200-call reference study remains unexecuted.</p></article>
         </div>
       </div>
     </section>
@@ -326,11 +350,22 @@
         <p><a href="mailto:kevinadriancervantes@gmail.com">kevinadriancervantes@gmail.com</a></p>
         <p><a href="https://www.linkedin.com/in/kevinadriancervantes/">Kevin Cervantes on LinkedIn</a></p>
         <p><a href="situation-room/">Situation Room</a></p>
-        <p><a href="publication/situation-room-v1/">Publication receipt</a></p>
-        <p><a href="README.md">Public release guide</a></p>
+        <p><a href="https://github.com/kevinadriancervantes/parallax#readme">Technical release guide on GitHub</a></p>
         <p><a href="governance/sources.md">Sources and citation boundary</a></p>
       </div>
     </div>
   </footer>
+  <script>
+    (() => {
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.querySelector('#primary-navigation');
+      if (!toggle || !nav) return;
+      toggle.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        nav.classList.toggle('is-open', !open);
+      });
+    })();
+  </script>
 </body>
 </html>

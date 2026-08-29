@@ -1,0 +1,21 @@
+{
+  "authority_receipt_sha256": "1f9582620864a5d078f027f86b643347180fcf01a30091591bd00661815efd36",
+  "entering_commit": "0fcd5f8b099ffdcbf7d5ab11f97fab40f7f139b6",
+  "entering_deployment": "dpl_eVEaM4usuoz7aWvzLvVmevED9dNF",
+  "entering_tree": "c187ce9154ebe18ca362ff783e6b27889b07d63d",
+  "external_submission": "NOT_PERFORMED",
+  "frozen_artifacts_mutated": "NO",
+  "governing_observations_changed": 0,
+  "manifest_identity": "ea4baa235a6caa0103af919bdef7da1e0141df66100bed67027415d7397e7f5b",
+  "manifest_sha256": "44a041115deef3ed3f4b7c5082794f2df6fdc598c16ea3d31fe736084b2aad82",
+  "new_scientific_calls": 0,
+  "next_operation": "FINAL_SEP1_SUBMISSION_REVIEW",
+  "packet_identity": "e10939b94e425428fffcea27ce6c6f1f883615f2417b138e9e1de34325dfcce1",
+  "provider_calls": 0,
+  "schema_version": "parallax.policy-reader-presentation-seal.v1",
+  "scientific_files_changed": 0,
+  "scientific_invariance_sha256": "44cf0af5012066d827b4da6ba91d14e248ddcca21d91df194043388794d94033",
+  "scope": "POLICY_READER_PRESENTATION_SUCCESSOR",
+  "sealed_utc": "2026-08-29T23:14:25.490Z",
+  "status": "PARALLAX_POLICY_READER_PRESENTATION_READY"
+}

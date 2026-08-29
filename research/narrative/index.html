@@ -7,7 +7,7 @@
   <meta name="description" content="The full Parallax research narrative: three experiments, preserved failures, local stress evidence, and the boundary around the unexecuted provider study.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://parallax.midex.app/research/narrative/">
-  <link rel="stylesheet" href="../../styles.css?v=public-presentation-v1">
+  <link rel="stylesheet" href="../../styles.css?v=public-presentation-v2">
 </head>
 <body class="reader-page">
   <a class="skip-link" href="#main">Skip to the full research narrative</a>
@@ -21,7 +21,7 @@
     </div></section>
     <section class="section"><div class="shell reader-layout">
       <article class="prose">
-        <div class="source-bar"><div><strong>Current reading surface</strong><br>This page adds the governing Situation Room evidence to the preserved August narrative.</div><div class="source-links"><a href="../../contest-narrative.md">Historical August Markdown</a> · <a href="../../situation-room/">Current Situation Room</a></div></div>
+        <div class="source-bar"><div><strong>Current reading surface</strong><br>This page explains the research lineage and connects it to the governing Situation Room evidence.</div><div class="source-links"><a href="../../situation-room/">Current Situation Room</a> · <a href="../../experiments/">Experiment lineage</a></div></div>
         <h2 id="answer-key">1. Strategic advice without an answer key</h2>
         <p>Some of the questions policymakers most want to ask AI systems cannot be scored against a single correct policy: reassure an ally or signal resolve, disclose an assessment or preserve ambiguity, act now or wait. Standard benchmark accuracy does not directly tell us whether advice is responsive to evidence or fragile to phrasing.</p>
         <p>Parallax asks a deliberately narrower behavioral question:</p>
@@ -47,7 +47,7 @@ STRONG_TOWARD</pre>
         <p>Its substantive response remains observable and small: <code>LEANS_NOT_H</code>, <code>UNRESOLVED</code>, or <code>LEANS_H</code>. Behavioral refusal is a separate co-primary response component, never placed on the substantive ordinal scale. Measurement, transport, and unclassified unavailability remain on one common eligible-unit denominator and enter a joint coherent identified set. The analysis does not invent an unseen answer.</p>
         <p>The primary object is an ordered vector of cumulative response contrasts across adjacent evidence doses. Nuisance stability remains a separate affirmative content/behavioral-equivalence gate; it is not subtracted into the dose estimand. Providers remain separate.</p>
         <h3>The governing Situation Room campaign</h3>
-        <p>The current governing local evidence is SR-8R1: 1,600 scheduled full-bundle runs across two cases and two local model families, Qwen 2.5 14B and Gemma 3 4B. It produced 823 observable assessments. Another 777 rows delivered no usable response because of local runtime or transport failure. They were attempted once, retained on the denominator, and never retried, replaced, or imputed.</p>
+        <p>The current governing local evidence is SR-8R1: 1,600 scheduled full-bundle runs across two cases and two local model families, Qwen 2.5 14B and Gemma 3 4B. Of those rows, 823 reached a non-transport terminal state: 822 substantive ordinal assessments and one measurement-unavailable row. Another 777 rows delivered no usable response because of local runtime or transport failure. They were attempted once, retained on the denominator, and never retried, replaced, or imputed.</p>
         <p>The fictional Vela Strait case provides a controlled readiness ladder. Afghanistan 1979 provides one qualified historical transfer case at a fixed cutoff; the later invasion is not used as an answer key. An attempted identity-masking diagnostic is excluded because the model-visible hypothesis and source identifiers remained unmasked.</p>
         <h2 id="attack">5. Attack the machinery before funding the provider study</h2>
         <p>The Experiment 3 validation ladder is intentionally role-separated:</p>
@@ -74,23 +74,23 @@ unexecuted funding-dependent confirmatory study</pre>
         <h2 id="commission">7. What is public now</h2>
         <p>Parallax now pairs this research narrative with a public Situation Room. A reader can inspect the governing five-dose local response profiles, matched-wording contrasts, failure classes, historical transfer, shortcut diagnostics, and exact claim boundaries without reading raw JSON first.</p>
         <p>The story’s value is not a triumphant benchmark number. It is the practical discipline required to make an evaluation capable of saying “not supported” and “insufficient evidence” without quietly moving the goalposts.</p>
-        <h2 id="reproduction">8. Reproduction and current authority</h2>
+        <h2 id="reproduction">8. Reproduction and the current public release</h2>
         <p>Run from the public-release root:</p>
-        <pre class="status-block" aria-label="Reproduction command">python reproducibility/verify_public_presentation_successor.py</pre>
+        <pre class="status-block" aria-label="Reproduction command">python reproducibility/verify_policy_reader_presentation.py</pre>
         <p>The check requires no GPU, provider credentials, network access, or model calls.</p>
-        <pre class="status-block" aria-label="Current release status">PUBLICATION = LIVE
+        <pre class="status-block" aria-label="Current release status">PUBLIC RESEARCH RELEASE = LIVE
 EXPERIMENT_1 = NOT_SUPPORTED
 EXPERIMENT_2 = INSUFFICIENT_EVIDENCE
 EXPERIMENT_3_CONFIRMATORY_EXECUTION = NOT_PERFORMED
 SCIENTIFIC_PROVIDER_RESULT = NONE
 FULL_CONFIRMATORY_EXECUTION_FUNDING = NOT_SECURED
-AUGUST_23_BROAD_CONTEST = SUBMITTED / NOT_ADVANCED / HISTORICAL
-SEPTEMBER_1_SITUATION_ROOM_CONTEST = NOT_SUBMITTED</pre>
+GOVERNING_LOCAL_CAMPAIGN = SR-8R1
+PUBLIC_SUBMISSION_ACTIONS = OUTSIDE_THIS_RELEASE</pre>
         <p><a class="button" href="../../experiments/">Review the experiment pages</a> <a class="button secondary" href="../../">Return to the research story</a></p>
       </article>
       <aside class="reader-aside"><p class="kicker">On this page</p><ul><li><a href="#answer-key">The question</a></li><li><a href="#experiment-1">Experiment 1</a></li><li><a href="#experiment-2">Experiment 2</a></li><li><a href="#experiment-3">Experiment 3</a></li><li><a href="#attack">Validation ladder</a></li><li><a href="#reference">Unexecuted reference</a></li><li><a href="#reproduction">Status and reproduction</a></li></ul><p class="muted compact">The August narrative source remains preserved; this page is the current public successor.</p></aside>
     </div></section>
   </main>
-  <footer class="footer"><div class="shell footer-grid"><div><p class="brand">Parallax</p><p>The full story, with its boundaries intact.</p></div><div><p><a href="../../">Return to the research story</a></p><p><a href="../../proposal/">Read the proposal</a></p><p><a href="../../reproduce/">Reproduce the public packet</a></p></div></div></footer>
+  <footer class="footer"><div class="shell footer-grid"><div><p class="brand">Parallax</p><p>The full story, with its boundaries intact.</p></div><div><p><a href="../../">Return to the research story</a></p><p><a href="../../situation-room/">Open the Situation Room</a></p><p><a href="../../reproduce/">Reproduce the public release</a></p></div></div></footer>
 </body>
 </html>

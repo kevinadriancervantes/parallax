@@ -31,14 +31,15 @@ The public repository is the technical and reproducibility layer:
 8. **Reference study:** the unfunded, unexecuted
    [556,200-call plan](evidence/confirmatory-reference-summary.json).
 9. **Claim limits:** [what the evidence supports—and does not support](governance/claim-firewall/).
-10. **Verification:** [current verifier](reproducibility/verify_public_presentation_successor.py).
+10. **Verification:** [current verifier](reproducibility/verify_policy_reader_presentation.py).
 
 ## Current governing evidence
 
 SR-8R1 scheduled 1,600 full-bundle local-model runs across Qwen 2.5 14B,
-Gemma 3 4B, Vela Strait, and Afghanistan 1979. It produced 823 observable
-assessments. Another 777 runs delivered no usable response because of local
-runtime or transport failure.
+Gemma 3 4B, Vela Strait, and Afghanistan 1979. Of those rows, 823 reached a
+non-transport terminal state: 822 substantive ordinal assessments and one
+measurement-unavailable row. Another 777 runs delivered no usable response
+because of local runtime or transport failure.
 
 Those 777 rows are infrastructure unavailability, not model behavior. They
 were attempted once, retained in the accounting, and never retried, replaced,
@@ -74,7 +75,7 @@ competence.
 ## Reproduce the current release
 
 ```powershell
-python reproducibility/verify_public_presentation_successor.py
+python reproducibility/verify_policy_reader_presentation.py
 ```
 
 The verifier needs no GPU, model weights, credentials, provider account,
@@ -87,16 +88,14 @@ The five exact pre-publication SR-11R1 files remain preserved at
 Their original status labels are historical custody evidence, not the status
 of the current public Situation Room.
 
-## Research and submission status
+## Research status
 
 - Experiment 1: `NOT_SUPPORTED`.
 - Experiment 2: `INSUFFICIENT_EVIDENCE` for both provider arms.
 - Experiment 3 frontier confirmatory execution: not performed.
-- August 23 broad ChinaTalk contest: submitted, not advanced, historical.
-- September 1 Situation Room contest: not submitted.
-
-Publication is not submission. No new model or provider calls were made for
-this presentation successor.
+- The public research release contains no frontier-provider Experiment-3
+  scientific result.
+- No new model or provider calls were made for this presentation successor.
 
 Contact: [kevinadriancervantes@gmail.com](mailto:kevinadriancervantes@gmail.com) ·
 [LinkedIn](https://www.linkedin.com/in/kevinadriancervantes/)

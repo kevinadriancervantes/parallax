@@ -105,6 +105,25 @@ img, svg { max-width: 100%; height: auto; }
   color: var(--rust-dark);
 }
 
+.mobile-header-actions { display: none; align-items: center; gap: .45rem; }
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: .38rem;
+  min-width: 44px;
+  min-height: 44px;
+  padding: .45rem .6rem;
+  border: 1px solid var(--navy);
+  border-radius: .22rem;
+  background: transparent;
+  color: var(--navy);
+  font: 750 .72rem/1 system-ui, -apple-system, "Segoe UI", sans-serif;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.nav-toggle-icon { font-size: 1rem; line-height: 1; }
+.mobile-sr-cta { display: none; }
+
 main { overflow: hidden; }
 
 .shell {
@@ -653,18 +672,31 @@ th { color: var(--ink); font: 750 .75rem/1.3 system-ui, sans-serif; letter-spaci
   .reader-layout { grid-template-columns: 1fr; }
   .reader-aside { position: static; }
   .situation-room-grid { grid-template-columns: 1fr; }
-  .primary-nav { flex-wrap: nowrap; max-width: 68vw; overflow-x: auto; justify-content: flex-start; padding: .35rem 0; scrollbar-width: thin; }
+}
+
+@media (min-width: 621px) and (max-width: 980px) {
+  .nav-shell { position: relative; min-height: 4.25rem; padding: .72rem 0; gap: .7rem; flex-direction: row; align-items: center; flex-wrap: wrap; }
+  .mobile-header-actions { display: flex; margin-left: auto; }
+  .mobile-sr-cta { display: inline-flex; padding: .48rem .58rem; font-size: .67rem; }
+  .nav-toggle { cursor: pointer; }
+  .primary-nav { display: none; width: 100%; max-width: none; flex-basis: 100%; grid-template-columns: repeat(4, minmax(0, 1fr)); justify-content: start; overflow: visible; gap: .55rem .85rem; padding: .3rem 0 .1rem; }
+  .primary-nav.is-open { display: grid; }
+  .primary-nav a { min-width: 0; }
+  .primary-nav .nav-emphasis { display: none; }
 }
 
 @media (max-width: 620px) {
   body { font-size: 16px; }
   .nav-shell, .shell { width: min(100% - 1.35rem, 1120px); }
-  .nav-shell { min-height: 3.8rem; padding: .72rem 0; gap: .7rem; flex-direction: column; align-items: flex-start; }
+  .nav-shell { position: relative; min-height: 3.8rem; padding: .72rem 0; gap: .7rem; flex-direction: row; align-items: center; flex-wrap: wrap; }
   .brand { font-size: .88rem; letter-spacing: .12em; }
-  .primary-nav { gap: .65rem; font-size: .68rem; }
-  .primary-nav { width: 100%; max-width: none; display: grid; grid-template-columns: repeat(3, auto); justify-content: start; overflow: visible; gap: .55rem .85rem; padding: 0; }
+  .mobile-header-actions { display: flex; margin-left: auto; }
+  .mobile-sr-cta { display: inline-flex; padding: .48rem .58rem; font-size: .67rem; }
+  .nav-toggle { cursor: pointer; }
+  .primary-nav { display: none; width: 100%; max-width: none; flex-basis: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-content: start; overflow: visible; gap: .55rem .85rem; padding: .3rem 0 .1rem; }
+  .primary-nav.is-open { display: grid; }
   .primary-nav a { min-width: 0; }
-  .primary-nav .nav-emphasis { padding: .3rem .45rem; }
+  .primary-nav .nav-emphasis { display: none; }
   .hero { padding-top: 3.3rem; }
   .hero::after { display: none; }
   h1 { font-size: clamp(2.65rem, 14vw, 4.3rem); }
