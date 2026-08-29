@@ -1,0 +1,15 @@
+{
+  "authority": "EXPLICIT_HUMAN_PUBLICATION_AUTHORIZATION",
+  "authorized_utc": "2026-08-29T18:46:00.233Z",
+  "entering_git_commit": "f8f9f80e621ebff7d1ab903d0ccf58d26222d778",
+  "entering_git_tree": "6b951700bb6be85ca4a186bdf1d3e8be9611c602",
+  "entering_publication_packet": "4f05cee3272b9e63ed7f608212aca545e2cd61918efeca21c963290749c3c687",
+  "preserved_aug23_commit": "fa9ca97ab6633093e7225d851531dab53ad0a4ab",
+  "preserved_sep1_private_candidate": "764e37daa445486c69bb61afd4b5f236283fe86c",
+  "scope": "PUBLIC_PRESENTATION_SUCCESSOR_V1",
+  "scientific_mutation_authority": "NONE",
+  "sr11r1_packet": "1a590a4ab72922008657fc39acabead7f9f3923113ee0bcbc648ff99db0251e4",
+  "sr11r1_public_safe_projection": "4fb3cb59518afbc7f3b41901925a1c8fb2ec172b211c0b795fd0d5f1035785c5",
+  "submission_authority": "NONE",
+  "supabase_authority": "NONE"
+}

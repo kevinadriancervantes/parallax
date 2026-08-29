@@ -1,0 +1,17 @@
+{
+  "august_23_submission": "SUBMITTED_NOT_ADVANCED_HISTORICAL",
+  "authority_receipt_sha256": "08f7cf4dbdcf22c28bce35fb3d990d85a05cf747c5956efd03671cadf6b219bf",
+  "frozen_artifacts_mutated": "NO",
+  "governing_observations_changed": 0,
+  "manifest_identity": "6f1a252f54a37e74044d5a3f998d95070b25e26f64119a29208f6cca8f7905c7",
+  "manifest_sha256": "577d0c08f9502ba4035414907e442cdd77a694355ce8f429d5d2239028fd2116",
+  "new_scientific_calls": 0,
+  "next_operation": "FINAL_SEP1_SUBMISSION_REVIEW",
+  "packet_identity": "2ca209f0b8b18110302d36efb363553cc67d51758e314fe7e6cc130b404a5349",
+  "provider_calls": 0,
+  "schema_version": "parallax.public-presentation-successor-seal.v1",
+  "scientific_files_changed": 0,
+  "sealed_utc": "2026-08-29T18:55:15.545Z",
+  "september_1_submission": "NOT_PERFORMED",
+  "status": "PARALLAX_PUBLIC_PRESENTATION_SUCCESSOR_READY"
+}

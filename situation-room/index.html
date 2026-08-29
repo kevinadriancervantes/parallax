@@ -3,35 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
-  <meta name="description" content="Parallax — instrumenting strategic judgment without an answer key.">
-  <title>Parallax — Situation Room submission candidate</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Situation Room — Parallax</title>
+  <meta name="description" content="A public research release for exploring how local-model strategic assessments changed with controlled evidence, wording variation, refusal, and technical unavailability.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://parallax.midex.app/situation-room/">
+  <link rel="stylesheet" href="styles.css?v=public-presentation-v1">
 </head>
 <body>
+  <a class="skip-link" href="#view">Skip to the current view</a>
   <div class="shell">
     <header class="topbar">
-      <div class="brand">
-        <div class="mark" aria-hidden="true">P</div>
-        <div><div class="eyebrow">PARALLAX / SR-11 PRIVATE CANDIDATE</div><h1>Situation Room</h1></div>
-      </div>
-      <div class="status"><span class="dot"></span><span>PRIVATE STATIC DERIVATIVE</span><span id="build-id">loading…</span></div>
+      <a class="brand" href="../" aria-label="Parallax home">
+        <span class="mark" aria-hidden="true">P</span>
+        <span><span class="eyebrow">Parallax</span><strong>Situation Room</strong></span>
+      </a>
+      <nav class="product-nav" aria-label="Parallax navigation">
+        <a href="../">Home</a>
+        <a href="./" aria-current="page">Situation Room</a>
+        <a href="#overview" data-jump="overview">How it works</a>
+        <a href="#limitations" data-jump="limitations">Limits</a>
+        <a href="https://github.com/kevinadriancervantes/parallax">GitHub</a>
+      </nav>
+      <div class="release"><span class="dot" aria-hidden="true"></span><span>Public research release</span></div>
     </header>
-    <nav class="nav" aria-label="Contest candidate views">
-      <button class="nav-item active" data-view="overview">Overview</button>
-      <button class="nav-item" data-view="vela">Vela</button>
-      <button class="nav-item" data-view="afghanistan">Afghanistan 1979</button>
-      <button class="nav-item" data-view="profiles">Model profiles</button>
-      <button class="nav-item" data-view="observability">Observability</button>
-      <button class="nav-item" data-view="nuisance">Nuisance sensitivity</button>
-      <button class="nav-item" data-view="known-policy">Known-policy self-test</button>
-      <button class="nav-item" data-view="shortcuts">Shortcut diagnostics</button>
-      <button class="nav-item" data-view="provenance">Provenance</button>
-      <button class="nav-item" data-view="limitations">Limitations</button>
+    <div class="mobile-view-picker">
+      <label for="view-select">Explore the Situation Room</label>
+      <select id="view-select">
+        <option value="overview">Overview</option><option value="vela">Vela Strait</option><option value="afghanistan">Afghanistan 1979</option><option value="profiles">Model profiles</option><option value="observability">Missing responses</option><option value="nuisance">Wording sensitivity</option><option value="known-policy">Instrument self-test</option><option value="shortcuts">Shortcut diagnostics</option><option value="provenance">Evidence &amp; provenance</option><option value="limitations">Limitations</option>
+      </select>
+    </div>
+    <nav class="view-nav" aria-label="Situation Room views">
+      <button class="nav-item active" data-view="overview">Overview</button><button class="nav-item" data-view="vela">Vela Strait</button><button class="nav-item" data-view="afghanistan">Afghanistan 1979</button><button class="nav-item" data-view="profiles">Model profiles</button><button class="nav-item" data-view="observability">Missing responses</button><button class="nav-item" data-view="nuisance">Wording sensitivity</button><button class="nav-item" data-view="known-policy">Instrument self-test</button><button class="nav-item" data-view="shortcuts">Shortcut diagnostics</button><button class="nav-item" data-view="provenance">Provenance</button><button class="nav-item" data-view="limitations">Limitations</button>
     </nav>
-    <main id="view" class="view" aria-live="polite"><div class="loading">Loading sealed projection…</div></main>
-    <footer class="footer"><span>Parallax measures observable assessment, not strategic truth.</span><span>Private candidate · no publication or submission authority</span></footer>
+    <main id="view" class="view" tabindex="-1"><div class="loading">Loading the public evidence projection…</div></main>
+    <footer class="footer">
+      <div><strong>Parallax</strong><br>Observable evidence response, tested fail-closed.</div>
+      <div><a href="../">Research story</a> · <a href="../experiments/experiment-3/">Method</a> · <a href="../reproduce/">Reproduce</a> · <a href="provenance/sr11r1-frozen/">Frozen prior artifact</a></div>
+      <div><a href="mailto:kevinadriancervantes@gmail.com">Email</a> · <a href="https://www.linkedin.com/in/kevinadriancervantes/">LinkedIn</a></div>
+    </footer>
   </div>
-  <script src="app.js"></script>
+  <script src="app.js?v=public-presentation-v1-final"></script>
 </body>
 </html>
