@@ -256,6 +256,7 @@ def verify() -> dict[str, object]:
     add("current judge-facing occurrences absent", "judge-facing" not in current_copy.lower() and "judge facing" not in current_copy.lower(), "visible and generated public copy")
     metadata_promo_terms = tuple(term for term in ("contest", "submission", "chinatalk") if term in current_metadata.lower())
     add("current promotional metadata absent", not metadata_promo_terms, metadata_promo_terms)
+    add("frontier result label is scoped to Experiment 3", "Experiment 3 Claude / Gemini result" in current_copy and "Claude / Gemini scientific result" not in current_copy, "top-line provider-result status")
     add("Terrible at label absent", "Terrible at" not in current_copy, "neutral failure-signal label")
     add("operationally important overstatement absent", "operationally important" not in current_copy.lower(), "bounded prospective-use wording")
     add("operational instability overclaim absent", "operationally unstable" not in root, "use presentation-fragile wording")

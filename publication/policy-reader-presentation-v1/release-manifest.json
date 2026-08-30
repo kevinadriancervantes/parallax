@@ -260,9 +260,9 @@
       "sha256": "99f0f701c8d9608e46f9b4dde7cc633ade7e1a4bcd240e4e9eed37bdbe9d15eb"
     },
     {
-      "bytes": 25555,
+      "bytes": 25557,
       "path": "index.html",
-      "sha256": "6a9d47ca42f0c824ac35796a27116eecc3db80133d4d50a684bf6aa6b47df348"
+      "sha256": "b4f139ca32a93674e30934b55c1b8e512facc150a04ea15a7927dc95d0000af8"
     },
     {
       "bytes": 1389,
@@ -440,9 +440,9 @@
       "sha256": "1c75ec9ce4cba0c097474440b7b85e3d51c9f64db18afa195a82265d58bc6f7a"
     },
     {
-      "bytes": 24357,
+      "bytes": 24566,
       "path": "reproducibility/verify_policy_reader_presentation.py",
-      "sha256": "c18bea98144defa0823bc71da054bbd0c00503d05951d70df053f37059a550b9"
+      "sha256": "de3f4277aaf0cfceb1bdf9f5568d3a9d589e255515076582566dbe41a3bcd3ba"
     },
     {
       "bytes": 9858,
@@ -581,7 +581,7 @@
     }
   ],
   "frozen_artifacts_mutated": "NO",
-  "manifest_identity": "5a007871f263cdc6858d6d6bcbe8eff9d40afa8813799ffff7310a4ca0b99047",
+  "manifest_identity": "727d083ab94426abe3b399da3d5879b04af7985a54185cb648881a1b183fd101",
   "schema_version": "parallax.policy-reader-presentation-manifest.v1",
   "scientific_files_changed": 0,
   "scope": "POLICY_READER_PRESENTATION_SUCCESSOR",
