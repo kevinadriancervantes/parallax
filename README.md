@@ -31,7 +31,7 @@ The public repository is the technical and reproducibility layer:
 8. **Reference study:** the unfunded, unexecuted
    [556,200-call plan](evidence/confirmatory-reference-summary.json).
 9. **Claim limits:** [what the evidence supports—and does not support](governance/claim-firewall/).
-10. **Verification:** [current verifier](reproducibility/verify_independent_campaign_docs_v2.py).
+10. **Verification:** [current verifier](reproducibility/verify_final_submission_release.py).
 
 ## Current governing evidence
 
@@ -75,7 +75,7 @@ competence.
 ## Reproduce the current release
 
 ```powershell
-python reproducibility/verify_independent_campaign_docs_v2.py
+python reproducibility/verify_final_submission_release.py
 ```
 
 The verifier needs no GPU, model weights, credentials, provider account,

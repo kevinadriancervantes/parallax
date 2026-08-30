@@ -3,7 +3,7 @@
 Run one command from the repository root:
 
 ```powershell
-python reproducibility/verify_independent_campaign_docs_v2.py
+python reproducibility/verify_final_submission_release.py
 ```
 
 The verifier is self-contained, deterministic, and read-only. It requires no
