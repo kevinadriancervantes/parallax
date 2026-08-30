@@ -88,6 +88,30 @@ The five exact pre-publication SR-11R1 files remain preserved at
 Their original status labels are historical custody evidence, not the status
 of the current public Situation Room.
 
+## Independent campaign architecture
+
+The current public release verifies and reproduces existing Parallax evidence;
+it is **not** a general-purpose model execution kit.
+
+Parallax documents a future independent-campaign architecture that would
+separate model transport from the measurement core while preserving
+prospective campaign identity, attempt-one accounting, refusal and
+unavailability handling, and scientific claim boundaries:
+
+- [Independent campaigns](docs/independent-campaigns.md)
+- [Future adapter contract](docs/adapter-contract.md)
+- [Prospective campaign manifest](docs/campaign-manifest.md)
+- [Security and credentials](docs/security-and-credentials.md)
+
+```text
+STATUS = DOCUMENTED ARCHITECTURE
+PUBLIC BYOM RUNNER = NOT IMPLEMENTED
+```
+
+The accepted Experiment 3 contract fixes two provider strata and `M=210`; an
+arbitrary one-model campaign cannot silently inherit that authority. Licensing
+for a future reusable execution kit also remains unresolved.
+
 ## Research status
 
 - Experiment 1: `NOT_SUPPORTED`.
