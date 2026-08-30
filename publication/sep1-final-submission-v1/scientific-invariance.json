@@ -1,0 +1,20 @@
+{
+  "analysis_changes": 0,
+  "baseline_commit": "b21ff52fcef41f8400b4b27cb7f2b36a7331615a",
+  "baseline_mismatches": [],
+  "baseline_tree": "df88dcd7b5926de50ad2ba53787453c0c18fb409",
+  "byom_functionality_added": 0,
+  "classification_changes": 0,
+  "data_projection_changed": 0,
+  "frozen_files_changed": 0,
+  "presentation_change": "SCOPED_EXPERIMENT_3_FRONTIER_LABEL_AND_CURRENT_VERIFIER_REFERENCE",
+  "presentation_files_changed": [
+    "index.html",
+    "README.md",
+    "reproducibility/README.md",
+    "reproduce/index.html"
+  ],
+  "schema_version": "parallax.sep1-final-submission-invariance.v1",
+  "scientific_files_changed": 0,
+  "threshold_changes": 0
+}

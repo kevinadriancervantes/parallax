@@ -1,0 +1,13 @@
+{
+  "authority": "FINAL_SUBMISSION_P1_COPY_REPAIR",
+  "byom_implementation_authority": "NONE",
+  "entering_commit": "b21ff52fcef41f8400b4b27cb7f2b36a7331615a",
+  "entering_tree": "df88dcd7b5926de50ad2ba53787453c0c18fb409",
+  "provider_call_authority": "NONE",
+  "recorded_utc": "2026-08-30T04:26:06.822Z",
+  "schema_version": "parallax.sep1-final-submission-authority.v1",
+  "scientific_mutation_authority": "NONE",
+  "scope": "SCOPED_EXPERIMENT_3_FRONTIER_LABEL",
+  "submission_authority": "NONE",
+  "submission_content_commit": "79db8643059d29592f28e23466304e0c84d71061"
+}

@@ -1,0 +1,49 @@
+{
+  "entering_commit": "b21ff52fcef41f8400b4b27cb7f2b36a7331615a",
+  "entering_tree": "df88dcd7b5926de50ad2ba53787453c0c18fb409",
+  "file_count": 7,
+  "files": [
+    {
+      "bytes": 5877,
+      "path": "README.md",
+      "sha256": "f2f703993d5a65dbeede0bbc169d4ae2b77eb0e49d86b8fdb22b6b9693b683d0"
+    },
+    {
+      "bytes": 25570,
+      "path": "index.html",
+      "sha256": "969bcb192527578e7ab339542bee51a8a5741038dd36182fccf5bc8daa6bb6c7"
+    },
+    {
+      "bytes": 3727,
+      "path": "reproduce/index.html",
+      "sha256": "737657c54ecde7cb036e40e8d0b06c0163f61e8d6dc561b2506e6bd0b7511d4e"
+    },
+    {
+      "bytes": 1558,
+      "path": "reproducibility/README.md",
+      "sha256": "919eac885a50758410d580f4415d3ed3a9a4d4abf2218db590efdab3a96e7b51"
+    },
+    {
+      "bytes": 5340,
+      "path": "reproducibility/seal_final_submission_release.py",
+      "sha256": "cc582359649e55bd6c1d19afcb6dc7f0f27e2fdf5b60141fdf8d3a9a40e6edc3"
+    },
+    {
+      "bytes": 10306,
+      "path": "reproducibility/verify_final_submission_release.py",
+      "sha256": "9f294fa7c2d800e0a27ff7b68d55dcd176b98acbedbbfdca55617dd7dac77030"
+    },
+    {
+      "bytes": 2107,
+      "path": "submission/sep1-final-form-draft.md",
+      "sha256": "ed1c5ad14e346124baf2cc34de725c06ba8ea3d3bc458d4056a11ae3b71182f5"
+    }
+  ],
+  "frozen_files_changed": 0,
+  "manifest_identity": "b2219384984a44a7ecce35fa863bc1cc501063132bda61376832621ed93d0938",
+  "new_scientific_execution": 0,
+  "schema_version": "parallax.sep1-final-submission-manifest.v1",
+  "scientific_files_changed": 0,
+  "scope": "SCOPED_EXPERIMENT_3_FRONTIER_LABEL",
+  "submission_content_commit": "79db8643059d29592f28e23466304e0c84d71061"
+}
