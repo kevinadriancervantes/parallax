@@ -1,0 +1,20 @@
+{
+  "baseline_commit": "b861fec49b0086a01abdd0213d7060c173fac940",
+  "baseline_mismatches": [],
+  "baseline_tree": "59efa7641f45334550c6c63d64ba46ab4bbb5703",
+  "docs_v1_identities": {
+    "publication/sep1-independent-campaign-docs-v1/authority-receipt.json": "558e9096dd9873e753668de64415cd9caa6096991a3080dec7f798b9e63f366d",
+    "publication/sep1-independent-campaign-docs-v1/release-manifest.json": "2df3fb21675cf374539842902931f6681653ac2c5fe275be1ca6c4c9cf1339de",
+    "publication/sep1-independent-campaign-docs-v1/release-packet.sha256": "5b3486979c13d09bc251286086b592ecb9aba10af3be793b6445f50d47e00c99",
+    "publication/sep1-independent-campaign-docs-v1/release-seal.json": "d98b3e70a59a41467fd4fcc2a4cd2049b988b2aec8fab8b2eddbbbbe8c683d28",
+    "reproducibility/seal_independent_campaign_docs.py": "7021adc2ed038928ed080453f22dec4598185b8a097256c7cd2c4d43030b229e",
+    "reproducibility/verify_independent_campaign_docs.py": "bedaa846e98260308edfab90a14c8be7d56316108bd53e1425c2c4396c3a0f62"
+  },
+  "frozen_files_changed": 0,
+  "presentation_change": "CURRENT_VERIFIER_REFERENCE_ONLY",
+  "presentation_files_changed": [
+    "reproduce/index.html"
+  ],
+  "schema_version": "parallax.sep1-independent-campaign-docs-invariance.v2",
+  "scientific_files_changed": 0
+}

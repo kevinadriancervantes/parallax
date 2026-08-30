@@ -1,0 +1,39 @@
+{
+  "documentation_content_commit": "f5fa367515bf551c930bea6262b3003fa3ec4849",
+  "entering_commit": "b861fec49b0086a01abdd0213d7060c173fac940",
+  "entering_tree": "59efa7641f45334550c6c63d64ba46ab4bbb5703",
+  "file_count": 5,
+  "files": [
+    {
+      "bytes": 5885,
+      "path": "README.md",
+      "sha256": "6921f11627877e7b71fc73db12d99fe813a63ef5bf115826bc532bd1320a9e93"
+    },
+    {
+      "bytes": 3735,
+      "path": "reproduce/index.html",
+      "sha256": "36bb4d0858d48900e856682b92ac554c8a13f11177deb6b3038803800cf46f13"
+    },
+    {
+      "bytes": 1562,
+      "path": "reproducibility/README.md",
+      "sha256": "7c25a49190ab7c834ca0999c3f27be180e57fb0c9fffb14a8307faa1e952e4b1"
+    },
+    {
+      "bytes": 5166,
+      "path": "reproducibility/seal_independent_campaign_docs_v2.py",
+      "sha256": "6c71c8d5e624a7ff901fae875399de01eb51f9ea9277fc1f0e36b5ac156f48f6"
+    },
+    {
+      "bytes": 10634,
+      "path": "reproducibility/verify_independent_campaign_docs_v2.py",
+      "sha256": "a034febfee2bbbed99e29cd2ccd648c4139dd64d2d6c0f9ac63889cee8848bd1"
+    }
+  ],
+  "frozen_files_changed": 0,
+  "manifest_identity": "09a18ccb31d3e0a4909ee282f90d8fa91910f385a91bd2d53b8a9a5d6e014cbb",
+  "new_execution_functionality": 0,
+  "schema_version": "parallax.sep1-independent-campaign-docs-manifest.v2",
+  "scientific_files_changed": 0,
+  "scope": "EXACT_CURRENT_VERIFIER_REFERENCE_CORRECTION"
+}

@@ -1,0 +1,14 @@
+{
+  "authority": "CONTINUOUS_CLOSURE_REPRODUCED_P1_STALE_COMMAND_REPAIR",
+  "byom_implementation_authority": "NONE",
+  "documentation_content_commit": "f5fa367515bf551c930bea6262b3003fa3ec4849",
+  "entering_commit": "b861fec49b0086a01abdd0213d7060c173fac940",
+  "entering_tree": "59efa7641f45334550c6c63d64ba46ab4bbb5703",
+  "license_selection_authority": "NONE",
+  "provider_call_authority": "NONE",
+  "recorded_utc": "2026-08-30T03:27:13.752Z",
+  "schema_version": "parallax.sep1-independent-campaign-docs-authority.v2",
+  "scientific_mutation_authority": "NONE",
+  "scope": "EXACT_CURRENT_VERIFIER_REFERENCE_CORRECTION",
+  "submission_authority": "NONE"
+}
