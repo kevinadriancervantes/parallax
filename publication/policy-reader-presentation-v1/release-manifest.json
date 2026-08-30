@@ -262,7 +262,7 @@
     {
       "bytes": 25555,
       "path": "index.html",
-      "sha256": "91c330613a17f00b5d5cb620916f61f24feab5034a30dc3935867795009b1fb6"
+      "sha256": "6a9d47ca42f0c824ac35796a27116eecc3db80133d4d50a684bf6aa6b47df348"
     },
     {
       "bytes": 1389,
@@ -440,9 +440,9 @@
       "sha256": "1c75ec9ce4cba0c097474440b7b85e3d51c9f64db18afa195a82265d58bc6f7a"
     },
     {
-      "bytes": 22985,
+      "bytes": 24357,
       "path": "reproducibility/verify_policy_reader_presentation.py",
-      "sha256": "2011d0d9d8768f513b33ba92f68fb0a67728ac22cdc10901024492efedc9c9a3"
+      "sha256": "c18bea98144defa0823bc71da054bbd0c00503d05951d70df053f37059a550b9"
     },
     {
       "bytes": 9858,
@@ -480,9 +480,9 @@
       "sha256": "695450ee48a9b111c7a823df967323c0d21d6989f0035ae0a441fb077d1e9998"
     },
     {
-      "bytes": 35167,
+      "bytes": 35194,
       "path": "situation-room/app.js",
-      "sha256": "71fffa14498dd7b5a795281af8d0d1d349929b79ce5ad2dd0e247cb0cb9aef1e"
+      "sha256": "03411a9fd3fe6de5274d70bf6c5fc5411e0a9c29f912114d01c7bebf0bd23605"
     },
     {
       "bytes": 788968,
@@ -581,7 +581,7 @@
     }
   ],
   "frozen_artifacts_mutated": "NO",
-  "manifest_identity": "6f28d333e1e95f8ee4fdcb9057317fd2bb9861cfaeb8a10b2cc6cf4d9bb93afd",
+  "manifest_identity": "5a007871f263cdc6858d6d6bcbe8eff9d40afa8813799ffff7310a4ca0b99047",
   "schema_version": "parallax.policy-reader-presentation-manifest.v1",
   "scientific_files_changed": 0,
   "scope": "POLICY_READER_PRESENTATION_SUCCESSOR",
