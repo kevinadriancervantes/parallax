@@ -3,7 +3,7 @@
 Run one command from the repository root:
 
 ```powershell
-python reproducibility/verify_policy_reader_presentation.py
+python reproducibility/verify_independent_campaign_docs_v2.py
 ```
 
 The verifier is self-contained, deterministic, and read-only. It requires no
@@ -12,7 +12,8 @@ access, or model/provider calls.
 
 It verifies:
 
-- the full public release manifest, packet, and file hashes;
+- the preserved public-presentation release and additive documentation packet;
+- the current documentation manifest, packet, and file hashes;
 - the five original SR-11R1 artifacts at their byte-preserved provenance route;
 - the unchanged governing 1,600-row evidence projection;
 - the 1,600-run governing versus 4,800-run predecessor campaign distinction;
@@ -33,5 +34,6 @@ release verifier remain available as historical reproduction paths.
 - Publication: live.
 - Frontier-provider Experiment-3 scientific result: none.
 
-The current verifier is for this public presentation successor. Predecessor
-verifiers remain preserved for their original releases.
+The current verifier covers the public presentation plus the additive
+independent-campaign documentation successor. Predecessor verifiers remain
+preserved for their original release commits.
