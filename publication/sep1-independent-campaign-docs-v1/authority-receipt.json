@@ -1,0 +1,16 @@
+{
+  "authority": "EXPLICIT_HUMAN_DOCUMENTATION_SUCCESSOR_AUTHORITY_IN_ATTACHED_RUN",
+  "authorized_scope": "FOUR_ARCHITECTURE_DOCUMENTS_MINIMAL_README_AND_VERIFICATION_ONLY",
+  "byom_implementation_authority": "NONE",
+  "documentation_content_commit": "311e1e426566719c37274a6058048b42a43720b1",
+  "entering_commit": "bce5a409ad9c8b21d0eda38a9346fff5006171a5",
+  "entering_tree": "bf41ae61d7c2df833fba0bf6cad36ae51789eaca",
+  "license_selection_authority": "NONE",
+  "provider_call_authority": "NONE",
+  "recorded_utc": "2026-08-30T03:18:58.113Z",
+  "schema_version": "parallax.sep1-independent-campaign-docs-authority.v1",
+  "scientific_mutation_authority": "NONE",
+  "scope": "SEP1_INDEPENDENT_CAMPAIGN_DOCUMENTATION",
+  "submission_authority": "NONE",
+  "website_mutation_authority": "NONE"
+}

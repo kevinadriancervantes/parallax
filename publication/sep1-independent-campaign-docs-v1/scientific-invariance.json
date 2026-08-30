@@ -1,0 +1,24 @@
+{
+  "baseline_commit": "bce5a409ad9c8b21d0eda38a9346fff5006171a5",
+  "baseline_mismatches": [],
+  "baseline_tree": "bf41ae61d7c2df833fba0bf6cad36ae51789eaca",
+  "frozen_files_changed": 0,
+  "frozen_identities": {
+    "situation-room/provenance/sr11r1-frozen/README.md": "b8fdc3eab319bdc30ac9d04881563019a1a49a1119005fffcb621f7afeeb498c",
+    "situation-room/provenance/sr11r1-frozen/app.js": "21dcf31c2bd61ccdb73a3de9877150067b21c95a7dc81ce9c79b15af414cc1e0",
+    "situation-room/provenance/sr11r1-frozen/data/data.json": "db107bf3c2080f431d0eaaee044b09d63af3f8e4b349c2c85f2110289cdfd9c0",
+    "situation-room/provenance/sr11r1-frozen/index.html": "012aacd2f2334d5c60999f9c944aedcd79ca625b58b84cce473701fd5695b1ab",
+    "situation-room/provenance/sr11r1-frozen/styles.css": "ca147a49e00b0a814ab5658eeee48318a3723155cbab8fe3c5d6a4db8e3b89c0"
+  },
+  "predecessor_identities": {
+    "publication/policy-reader-presentation-v1/authority-receipt.json": "1f9582620864a5d078f027f86b643347180fcf01a30091591bd00661815efd36",
+    "publication/policy-reader-presentation-v1/release-manifest.json": "a1289d5141daa517ac9531eaa87287ded7fefb5cebc67aeb46d670518ac1ce9e",
+    "publication/policy-reader-presentation-v1/release-packet.sha256": "242f5c59f8063db1febb031e60c41f206250477bea9282ec314a5e088ef8b534",
+    "publication/policy-reader-presentation-v1/release-seal.json": "92ae3feacc204ca14f7fc810afe85f12ff7e0739f96f1d7618150426d7e24ec4",
+    "publication/policy-reader-presentation-v1/scientific-invariance.json": "44cf0af5012066d827b4da6ba91d14e248ddcca21d91df194043388794d94033",
+    "reproducibility/verify_policy_reader_presentation.py": "de3f4277aaf0cfceb1bdf9f5568d3a9d589e255515076582566dbe41a3bcd3ba"
+  },
+  "schema_version": "parallax.sep1-independent-campaign-docs-invariance.v1",
+  "scientific_files_changed": 0,
+  "website_files_changed": 0
+}
